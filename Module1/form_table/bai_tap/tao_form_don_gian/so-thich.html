@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form basic</title>
+</head>
+<body>
+<form action="/form_basic" method="post">
+    <!--method: quy định dữ liệu được gửi lên server và có 2 giá trị là GET và POST-->
+    <!--action:là một URL và quy định nơi dữ liệu được gửi đến-->
+<h1 style="background-color: red; text-align:center; color:white">SỞ THÍCH CỦA BẠN</h1>
+<br> <br>
+<label style="color:blue" >Họ và tên</label>
+    <!-- thẻ label sau khi kết thúc đoạn văn thì không tự động xuống dòng như thẻ <p>-->
+<input type="text" name="yourname">
+<br> <br>
+<label style="color:blue;"   >Email</label>
+<input type="text" name="email">
+<br> <br>
+<label style="color:blue">Sở thích</label>
+<input type="checkbox" name="hoppy">
+<label style="color:orange">Thể thao</label>
+<input type="checkbox" name="hoppy">
+<label style="color:orange">Âm nhạc</label>
+<input type="checkbox" name="hoppy">
+<label style="color:orange">Đọc sách</label>
+<br> <br>
+<input type="checkbox" name="hoppy">
+<label style="color:orange">Lướt web</label>
+<input type="checkbox" name="hoppy">
+<label style="color:orange">Chơi game</label>
+<input type="checkbox" name="hoppy">
+<label style="color:orange">Điện ảnh</label>
+<br> <br>
+<input type="checkbox" name="hoppy">
+<label style="color:orange"  >Du lịch</label>
+<br> <br>
+<input type="submit" value="Gửi thông tin">
+<input type="reset" value="Nhập lại">
+
+</form>
+</body>
+</html>
