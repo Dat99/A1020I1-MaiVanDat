@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="944fa9d1-3cb2-4a57-bed0-41c3c4ac07cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.js" afterDir="false" />
+    <list default="true" id="57b3079b-6c0a-4df0-a9b4-512d00a3e18e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/ex1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/ex1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/ex1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../form_table/bai_tap/tao_bang_nang_cao/phan_2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +16,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="1kDpzx4B8WZTd1ILnAJ7Ie89UEk" />
+  <component name="ProjectId" id="1kNFoNCCnhCwpidRjB3qdRDPgBK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../form_table/thuc_hanh/tao_bang_co_ban/tableSimple.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../tong_quan_ve_javaScript/bai-tap/Tinh-tong-hai-so-nhap-tu-nguoi-dung" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,13 +46,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="944fa9d1-3cb2-4a57-bed0-41c3c4ac07cb" name="Default Changelist" comment="" />
-      <created>1605245282169</created>
+      <changelist id="57b3079b-6c0a-4df0-a9b4-512d00a3e18e" name="Default Changelist" comment="" />
+      <created>1605533315840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605245282169</updated>
-      <workItem from="1605245283275" duration="4373000" />
-      <workItem from="1605254847413" duration="184000" />
+      <updated>1605533315840</updated>
+      <workItem from="1605533317288" duration="1941000" />
     </task>
     <servers />
   </component>
@@ -61,9 +59,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1605255024599">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1605535265025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605255024599" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605535265025" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605535009188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605535009188" />
   </component>
 </project>
