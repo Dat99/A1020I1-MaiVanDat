@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <title>money</title>
+    <style>
+        .blue {
+            color: blue;
+        }
+        /* div{*/
+        /*    border: 1px ;*/
+        /*    margin-right: 100px;*/
+        /*}*/
+    </style>
 </head>
 <body>
-    <label><strong>Amount</strong></label>
-    <label style="margin-left: 50px"><strong>From Currency</strong></label>
-    <label style="margin-right:100px"><strong>To Currency</strong></label>
-    <br>
-    <input type="text" id="money">
-    <select id="from" >
-        <option value="vn">VietNam</option>
-        <option value="usd">USA</option>
-    </select>
-    <select id="to">
-        <option value="usd">USA</option>
-        <option value="vn">VietNam</option>
-    </select>
-    <input type="button" onclick="showMoney()" value="convert">
-    <p id="res"></p >
+<label><strong>Amount</strong></label>
+<label><strong>From Currency</strong></label>
+<label><strong>To Currency</strong></label>
+<br>
+<input type="text" id="money">
+<select id="from">
+    <option value="vn">VietNam</option>
+    <option value="usd">USA</option>
+</select>
+<select id="to">
+    <option value="usd">USA</option>
+    <option value="vn">VietNam</option>
+</select>
+<input type="button" onclick="showMoney()" value="convert">
+<p id="res" class="blue"></p>
 
-    <script>
+<script>
     function showMoney() {
-        let money =document.getElementById("money").value;
-        let from =document.getElementById("from").value;
-        let to =document.getElementById("to").value;
-        let res=0;
-        if(from==="usd"&&to==='vn') {
-            res=money*23000;
-        } else if(from==="vn"&&to==='usd'){
-           res=money/23000;
-        }else {
-            res=money;
+        let money = document.getElementById("money").value;
+        let from = document.getElementById("from").value;
+        let to = document.getElementById("to").value;
+        let res = 0;
+        if (from === "usd" && to === 'vn') {
+            res = money * 23000;
+        } else if (from === "vn" && to === 'usd') {
+            res = money / 23000;
+        } else {
+            res = money;
         }
-        document.getElementById("res").innerHTML=res;
-        // alert("res: " +res);
+        document.getElementById("res").innerHTML = "Result: " + res;
+
     }
 </script>
 </body>

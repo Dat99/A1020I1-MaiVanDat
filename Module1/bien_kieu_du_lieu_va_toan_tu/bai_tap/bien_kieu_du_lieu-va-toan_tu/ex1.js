@@ -1,19 +1,19 @@
-var chemistry;
-var biology;
-var physical;
+let chemistry;
+let biology;
+let physical;
 
-chemistry=prompt("Enter the chemistry: ");
-biology=prompt("Enter the biology: ");
-physical=prompt("Enter the physical: ");
+chemistry = prompt("Enter the chemistry: ");
+biology = prompt("Enter the biology: ");
+physical = prompt("Enter the physical: ");
 
-var a=parseInt(chemistry);
-var b=parseInt(biology);
-var c= parseInt(physical);
+let a = parseInt(chemistry);
+let b = parseInt(biology);
+let c = parseInt(physical);
 
-var average =(a+b+c)/3;
-document.write("The average is:  "+average);
+let average = (a + b + c) / 3;
+document.write("The average is:  " + average);
 
-var sum = a+b+c;
-document.write("<br>The sum is: "+sum);
+let sum = a + b + c;
+document.write("<br>The sum is: " + sum);
 
 
