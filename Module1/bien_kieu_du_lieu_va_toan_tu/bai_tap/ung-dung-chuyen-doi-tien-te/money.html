@@ -7,20 +7,17 @@
         .blue {
             color: blue;
         }
-        /* div{*/
-        /*    border: 1px ;*/
-        /*    margin-right: 100px;*/
-        /*}*/
+
     </style>
 </head>
 <body>
-<label><strong>Amount</strong></label>
-<label><strong>From Currency</strong></label>
-<label><strong>To Currency</strong></label>
+<label><b>Amount</b></label>
+<label><b>From Currency</b></label>
+<label><b>To Currency</b></label>
 <br>
 <input type="text" id="money">
-<select id="from">
-    <option value="vn">VietNam</option>
+<select>
+    <option value="vn" id="from1">VietNam</option>
     <option value="usd">USA</option>
 </select>
 <select id="to">
@@ -28,7 +25,7 @@
     <option value="vn">VietNam</option>
 </select>
 <input type="button" onclick="showMoney()" value="convert">
-<p id="res" class="blue"></p>
+<p id="res" class="blue"> </p>
 
 <script>
     function showMoney() {
@@ -44,7 +41,6 @@
             res = money;
         }
         document.getElementById("res").innerHTML = "Result: " + res;
-
     }
 </script>
 </body>

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b3079b-6c0a-4df0-a9b4-512d00a3e18e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/ex1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/ex1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../bien_kieu_du_lieu-va-toan_tu/ex1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../form_table/bai_tap/tao_bang_nang_cao/phan_2.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/computer_advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../cau_truc_dieu_kien_1/thuc_hanh/luyenTapVoiCauTrucIfElseIf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tong_quan_ve_javaScript/bai-tap/Tinh-tong-hai-so-nhap-tu-nguoi-dung/test_computer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ung-dung-chuyen-doi-tien-te/money.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ung-dung-chuyen-doi-tien-te/money.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/computer.html" beforeDir="false" afterPath="$PROJECT_DIR$/computer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../form_table/bai_tap/tao_bang_don_gian/phan_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../form_table/bai_tap/tao_bang_don_gian/phan_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../tong_quan_ve_javaScript/bai-tap/Tinh-tong-hai-so-nhap-tu-nguoi-dung" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cau_truc_dieu_kien_1/thuc_hanh/luyenTapVoiCauTrucIfElseIf.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605533315840</updated>
       <workItem from="1605533317288" duration="1941000" />
+      <workItem from="1605933670999" duration="379000" />
+      <workItem from="1606035194471" duration="30000" />
     </task>
     <servers />
   </component>
@@ -59,10 +64,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1605535265025">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1606035086254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605535265025" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606035086254" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1605535009188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

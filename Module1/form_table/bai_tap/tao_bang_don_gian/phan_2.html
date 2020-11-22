@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .blue{
+            color: blue;
+        }
+     table, th,td{
+         border: 1px solid black;
+     }
+    </style>
     <meta charset="UTF-8">
-    <title>Table basic</title>
+    <title>TableSimple</title>
 </head>
 <body>
 <h1 style="color: blue; text-align: center" >THỜI KHÓA BIỂU</h1>
-<tabel>
+<table style="width:100%" class="table, th,td">
     <tr>
         <th rowspan="3"> </th>
         <th>Thứ 3</th>
         <th>Thứ 5</th>
         <th>Thứ 7</th>
     </tr>
-</tabel>
+    <tr>
+        <th>Tuần</th>
+        <th>Ngày đầu tuần</th>
+        <th>Ngày kết thúc</th>
+        <th rowspan="3">Môn học</th>
+    </tr>
+    <tr>
+        <td> 01</td>
+        <td>01/09/2009</td>
+        <td>05/09/2009</td>
+    </tr>
+</table>
 
 </body>
 </html>
