@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<script>
+    //Cửa hàng của bạn nhận gửi bán sản phẩm cho một công ty khác và sau mỗi tháng
+    //bạn cần tính toán số tiền hoa hồng bạn nhận được. Với mức hoa hồng theo doanh số bán hàng như sau:
+    //5% nếu tổng doanh số nhỏ hơn hoặc bằng 100 triệu.
+    //10% nếu tổng doanh số nhỏ hơn hoặc bằng 300 triệu.
+    //20 % nếu tổng doanh số là lớn hơn 300 triệu.
+    //dựa vào dữ liệu trên, bạn viết chương trình C++ để tính hoa hồng đại lý bạn sẽ nhận được.
+    let a=prompt('Doanh thu bán hàng: ');
+    if(a<=100){//đơn vị triệu đồng
+        console.log('Tiền hoa hồng nhận được là: '+a*0.03);
+    } else if(a<=300){
+        console.log('Tiền hoa hồng nhân được là:'+a*0.1);
+    }else{
+        console.log('Tiền hoa hồng nhận được là: '+a*0.2);
+    }
+</script>
+</body>
+</html>
