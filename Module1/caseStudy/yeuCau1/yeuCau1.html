@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name;
+    let cmnd;
+    let email;
+    let birthday;
+    let address;
+    let typeCustomer;
+    let disCount;
+    let typeService;
+    let rendDays;
+    let typeRoom;
+    let quantityIncluded;
+
+    name=prompt('Input name: ');
+    cmnd=prompt('Input cmnd: ');
+    email=prompt('Input email: ');
+    birthday=prompt('Input birthday: ');
+    address=prompt('Input address: ');
+    typeCustomer=prompt('Input typeCustomer: ');
+    disCount=prompt('Input disCount: ');
+    typeService=prompt('Input typeService: ');
+    rendDays=prompt('Input rendDays: ');
+    typeRoom=prompt('Input typeRoom: ');
+    quantityIncluded=prompt('Input quantityIncluded: ');
+
+    let totalPay;
+    if(typeService=='villa'){
+        totalPay=500*parseInt(rendDays)*(1-parseFloat(disCount/100));
+        // alert(totalPay);
+    }
+    else if(typeService=='house'){
+        totalPay=300*parseInt(rendDays)*(1-parseFloat(disCount/100));
+        // alert(totalPay);
+    }else{
+        totalPay=200*parseInt(rendDays)*(1-parseFloat(disCount/100));
+        // alert(totalPay);
+    }
+    document.write('Name: '+name+'<br> rendDays: '+rendDays+'<br>typeService: '+typeService+'<br> disCount: '+disCount+'<br> TotalPay: '+totalPay);
+</script>
+</body>
+</html>
