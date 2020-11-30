@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name;
+    let cmnd;
+    let email;
+    let birthday;
+    let address;
+    let typeCustomer;
+    let disCount;
+    let typeService;
+    let rentDays;
+    let typeRoom;
+    let quantityIncluded;
+    let check = false;
+
+    // xóa bỏ tất cả khoảng trống thừa trong tên và chuẩn hóa dữ liệu(có nghĩa sau khoảng trắng phải viết hoa
+    //chữ cái đầu tiên)
+    let tempName = "";
+    name = prompt('Input name: ');
+    name = name.trim().toLocaleLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
+    for (let i = 0; i < name.length; i++) {
+        if (name.charAt(i) === " " && name.charAt(i + 1) === " ") {
+            continue; // nếu kí tự i và tiếp theo là khoảng trống thì không thực hiện câu lệnh tempName += name.....
+        }
+        if (i === 0 || name.charAt(i - 1) === " ") {  // chữ cái đầu tiên và kí tự trước 1 khoảng trống thì in hoa
+            tempName += name.charAt(i).toLocaleUpperCase();// biến chữ thường thành hoa
+            continue; // bỏ qua câu lệnh tempName +=name.charAt(i)
+        }
+        tempName += name.charAt(i);
+    }
+    name=tempName;
+
+
+    //chứng minh nhân dân phải đúng theo định dạng XXXXXXXX với X là số nguyên dương.
+    do {
+        cmnd = prompt('Input cmnd: ');
+        if (!isNaN(cmnd)) {
+            cmnd = Number.parseFloat(cmnd);
+        }
+        if (!Number.isInteger(cmnd)) {
+            alert("CMND không đúng định dạng.");
+            continue;
+        }
+        if (cmnd < 10000000 || cmnd > 99000000) {
+            alert("CMND không đúng định dạng.");
+            continue;
+        } else {
+            check = true;
+        }
+    } while (!check)
+    check = false;//nếu không sửa lại check bằng false thì các biến sau sẽ hiểu check bằng true
+
+
+    //địa chỉ email phải đúng theo định dạng abc@abc.com
+    do {
+        let countAt = 0;
+        let countDoc = 0;
+        email = prompt('Input email: ');
+        for (let i = 0; i < email.length; i++) {
+            if (email.charAt(i) === "@") {
+                countAt++;
+                for (let j = i + 1; j < email.length; j++) {
+                    if (email.charAt(j) === ".") {
+                        countDoc++;
+                    }
+
+                }
+            }
+        }
+        if (countAt != 1 || countDoc < 1) {
+            alert("Email của bạn nhập không đúng.");
+        } else {
+            check = true;
+        }
+    } while (!check)
+
+    check = false;// nếu không sửa lại check bằng false thì các biến sau sẽ hiểu check bằng true( thừa kế từ email)
+    //Ngày sinh phải đúng theo định dạng DD/MM/YYYY
+    do {
+        birthday = prompt('Input birthday: ');
+        if (birthday.charAt(2) === "/" && birthday.charAt(5) === "/") {// kiểm tra xem tại vị trí kí tự thứ 2 và 5 có dấu / hay không
+            let day = birthday.substring(0, 2); // từ vị trí 0 đến vị trí số 2 gán vào biến ngày
+            let month = birthday.substring(3, 5);
+            let year = birthday.substring(6, 10);
+            if (!isNaN(day) && !isNaN(month) && !isNaN(year)) { // kiểm tra các biến ngày, tháng, năm có phải là số không
+                day = Number.parseFloat(day); //
+                month = Number.parseFloat(month);
+                year = Number.parseFloat(year);
+                //kiểm tra các biến phải là số nguyên dương hay không
+                if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+                    if (day < 32 && month < 13 && year > 1000) {
+                        check = true;
+                    }
+                }
+            }
+        }
+        if (!check) {
+            alert("Ngày sinh không đúng định dạng.");
+        }
+
+    } while (!check)
+    check = false;
+
+
+    // xóa bỏ tất cả khoảng trống thừa trong địa chỉ và chuẩn hóa dữ liệu(có nghĩa sau khoảng trắng phải viết hoa
+    //chữ cái đầu tiên)
+    let tempAddress = "";
+    address = prompt('Input address: ');
+    address = address.trim().toLocaleLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
+    for (let i = 0; i < address.length; i++) {
+        if (address.charAt(i) === " " && address.charAt(i + 1) === " ") {
+            continue; // nếu kí tự i và tiếp theo là khoảng trống thì không thực hiện câu lệnh tempAddress += name.....
+        }
+        if (i === 0 || address.charAt(i - 1) === " ") {  // chữ cái đầu tiên và kí tự trước 1 khoảng trống thì in hoa
+            tempAddress += address.charAt(i).toLocaleUpperCase();// biến chữ thường thành hoa
+            continue; // bỏ qua câu lệnh tempAddress +=name.charAt(i)
+        }
+        tempAddress += address.charAt(i);
+    }
+    address=tempAddress;
+
+
+    // xóa bỏ tất cả khoảng trống thừa trong loại khách hàng và chuẩn hóa dữ liệu(có nghĩa sau khoảng trắng phải viết hoa
+    //chữ cái đầu tiên)
+    let tempTypeCustomer = "";
+    typeCustomer= prompt('Input typeCustomer: ');
+    typeCustomer = typeCustomer.trim().toLocaleLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
+    for (let i = 0; i < typeCustomer.length; i++) {
+        if (typeCustomer.charAt(i) === " " && typeCustomer.charAt(i + 1) === " ") {
+            continue; // nếu kí tự i và tiếp theo là khoảng trống thì không thực hiện câu lệnh tempName += name.....
+        }
+        if (i === 0 || name.charAt(i - 1) === " ") {  // chữ cái đầu tiên và kí tự trước 1 khoảng trống thì in hoa
+            tempTypeCustomer += typeCustomer.charAt(i).toLocaleUpperCase();// biến chữ thường thành hoa
+            continue; // bỏ qua câu lệnh tempName +=name.charAt(i)
+        }
+        tempTypeCustomer += typeCustomer.charAt(i);
+    }
+    typeCustomer=tempTypeCustomer;
+
+
+
+
+
+
+
+    disCount = prompt('Input disCount: ');
+    typeService = prompt('Input typeService: ');
+
+
+
+    // định dạng số ngày thuê phải là số nguyên dương
+    do {
+        rentDays = prompt('Input rentDays: ');
+        if (!isNaN(rentDays)) { // kiểm tra xem có biến rentdays có phải là số hay không
+            rentDays = Number.parseFloat(rentDays);
+            if (Number.isInteger(rentDays && rentDays > 0)) { // kiểm tra xem có phải là số nguyên dương hay không
+                check = true;
+            }
+        }
+        if (!check) {
+            alert("RentDays không phải là số nguyên dương.");
+        }
+    } while (!check)
+    check = false;
+    typeRoom = prompt('Input typeRoom: ');
+
+    // định dạng số người đi kèm phải là số nguyên dương
+    do {
+        quantityIncluded = prompt('Input quantityIncluded: ');
+        if (!isNaN(quantityIncluded)) { // kiểm tra xem có phải kiểu số hay không
+            quantityIncluded = Number.parseFloat(quantityIncluded);
+            if (Number.isInteger(quantityIncluded && quantityIncluded > 0)) {
+                check = true;
+            }
+        }
+        if (!check) {
+            alert("Quantity Included không phải là số nguyên dương");
+        }
+
+    } while (!check)
+
+
+</script>
+</body>
+</html>
