@@ -10,11 +10,11 @@
     let cmnd = '12345';
     let email = 'abc@gmail.com';
     let birthday = '12/12/2020';
-    let address = 'Da nang';
+    let address = 'da nang';
     let typeCustomer = 'diamond';
     let disCount = '10';
-    let typeService = 'room';
-    let rendDays = '10';
+    let typeService = 'villa';
+    let rentDays = '10';
     let typeRoom = 'vip';
     let quantityIncluded = '2';
 
@@ -32,7 +32,7 @@
                 '6. Loại khách hàng: ' + typeCustomer + '\n' +
                 '7. Giảm giá: ' + disCount + '\n' +
                 '8. Loại dịch vụ: ' + typeService + '\n' +
-                '9. Số ngày lưu trú: ' + rendDays + '\n' +
+                '9. Số ngày lưu trú: ' + rentDays + '\n' +
                 '10. Loại phòng: ' + typeRoom + '\n' +
                 '11. Số lượng đi kèm: ' + quantityIncluded);
             break;
@@ -46,7 +46,7 @@
                 '6. Loại khách hàng: ' + typeCustomer + '\n' +
                 '7. Giảm giá: ' + disCount + '\n' +
                 '8. Loại dịch vụ: ' + typeService + '\n' +
-                '9. Số ngày lưu trú: ' + rendDays + '\n' +
+                '9. Số ngày lưu trú: ' + rentDays + '\n' +
                 '10. Loại phòng: ' + typeRoom + '\n' +
                 '11. Số lượng đi kèm: ' + quantityIncluded));
 
@@ -92,7 +92,7 @@
                     break;
                 }
                 case 11: {
-                    rendDays = prompt('Số ngày lưu trú: ');
+                    rentDays = prompt('Số ngày lưu trú: ');
                     break;
                 }
                 default: {
@@ -107,110 +107,59 @@
                 '6. Loại khách hàng: ' + typeCustomer + '\n' +
                 '7. Giảm giá: ' + disCount + '\n' +
                 '8. Loại dịch vụ: ' + typeService + '\n' +
-                '9. Số ngày lưu trú: ' + rendDays + '\n' +
+                '9. Số ngày lưu trú: ' + rentDays + '\n' +
                 '10. Loại phòng: ' + typeRoom + '\n' +
                 '11. Số lượng đi kèm: ' + quantityIncluded);
             break;
         }
-        // case '3': {
-        //     //tính số tiền phải trả nếu thay đổi loại hình dịch vụ(typeService)
-        //     if (typeService == 'villa') {
-        //         totalPay = 500 * rendDays;
-        //     } else if (typeService == 'house') {
-        //         totalPay = 300 * rendDays;
-        //     } else if (typeService == 'room') {
-        //         totalPay = 100 * rendDays;
-        //     }
-        //
-        //     //tính số tiền phải trả nếu có discount
-        //     //Mức giá thay đổi theo địa chỉ
-        //     switch (address) {
-        //         case 'Da nang': {
-        //             address = 20;
-        //             break;
-        //         }
-        //         case 'Hue': {
-        //             address = 10;
-        //             break;
-        //         }
-        //         case 'Quang nam': {
-        //             address = 5;
-        //             break;
-        //         }
-        //
-        //     }
-        //     //Mức giá thay đổi theo thời gian lưu trú
-        //     if (rendDays >= 7) {
-        //         rendDays = 30;
-        //     } else if (rendDays >= 5) {
-        //         rendDays = 20;
-        //     } else if (rendDays >= 2) {
-        //         rendDays = 10;
-        //     }
-        //     //Mức giá theo loại Customer:
-        //     if (typeCustomer == 'Diamond') {
-        //         typeCustomer = 15;
-        //     } else if (typeCustomer == 'Platium ') {
-        //         typeCustomer = 10;
-        //     } else if (typeCustomer == 'Gold') {
-        //         typeCustomer = 5;
-        //     } else if (typeCustomer == 'Silver') {
-        //         typeCustomer = 2;
-        //     } else if (typeCustomer == 'Member') {
-        //             alert('Không đánh giá!');
-        //         }
-        //     total=parseInt(address+typeCustomer+rendDays);
-        //     let sum=totalPay-total;
-        //     console.log(sum);
-        //
-        // }
+
         case '3': {
             // Số tiền phải trả  = giá loại dịch vụ * số ngày - giảm giá
-            // Số tiền giảm giá = giảm giá theo địa chỉ + giảm giá theo thời gian lưu trú + giảm giá theo loại Customer
+            // Số tiền giảm giá = giảm giá theo địa chỉ + giảm giá theo thời gian lưu trú
+            // + giảm giá theo loại Customer
             if (typeService == "villa") {
-                totalPay = 500 * rendDays;
-                // alert("Số tiền phải trả là: " + totalPay);
+                totalPay = 500 * rentDays;
             } else if (typeService == "house") {
-                totalPay = 300 * rendDays;
-                // alert("Số tiền phải trả là: " + totalPay);
-            } else {
-                totalPay = 100 * rendDays;
+                totalPay = 300 * rentDays;
+            } else if(typeService == "room"){
+                totalPay = 100 * rentDays;
             }
             
             // Mức giá theo địa chỉ
-            if (address == "Da nang") {
+            if (address == "da nang") {
                 address = 20;
-            } else if (address == "Hue") {
+            } else if (address == "hue") {
                 address = 10;
-            } else {
+            } else if(address=="quang nam"){
                 address = 5;
             }
 
             // Mức giá theo thời gian lưu trú
-            if (rendDays >= 7) {
-                rendDays = 30;
-            } else if (rendDays < 7 && rendDays >= 5) {
-                rendDays = 20;
-            } else if (rendDays < 4 && rendDays >= 2){
-                rendDays = 10;
+            if (rentDays >= 7) {
+                rentDays = 30;
+            } else if (rentDays >= 5) {
+                rentDays = 20;
+            } else if (rentDays >= 2){
+                rentDays = 10;
             }
             // Mức giá theo loại Customer
             if (typeCustomer == "diamond") {
                 typeCustomer = 15;
-            } else if (typeCustomer == "Platium") {
+            } else if (typeCustomer == "platium") {
                 typeCustomer = 10;
-            } else if (typeCustomer == "Gold") {
+            } else if (typeCustomer == "gold") {
                 typeCustomer = 5;
-            } else if (typeCustomer == "Silver") {
+            } else if (typeCustomer == "silver") {
                 typeCustomer = 2;
-            } else {
+            } else if(typeCustomer=="member"){
                 typeCustomer = 0;
             }
-            // ép 3 giá trị chuỗi  thành number, sau đó thực hiện phép tính toán.
-            discount = parseInt(address) + parseInt(rendDays) + parseInt(typeCustomer);
+            // ép 3 giá trị chuỗi  thành kiển nguyên, sau đó thực hiện phép tính toán.
+            disCount = parseInt(address +rentDays + typeCustomer);
+            let sum = parseInt(totalPay - disCount);
             // in kết quả của 3 giá trị ra
-            alert("Tổng số tiền là: " + totalPay + "\n" + "Số tiền được giảm là: " + discount + "\n"
-                +"Số tiền phải trả là: " + (parseInt(totalPay) - parseInt(discount)));
+            alert("Tổng số tiền là: " + totalPay + "\n" + "Số tiền được giảm là: " + disCount + "\n"
+                +"Số tiền phải trả là: "+sum);
             break;
         }
 

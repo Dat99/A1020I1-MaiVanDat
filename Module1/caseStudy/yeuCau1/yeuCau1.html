@@ -14,35 +14,45 @@
     let typeCustomer;
     let disCount;
     let typeService;
-    let rendDays;
+    let rentDays;
     let typeRoom;
     let quantityIncluded;
 
-    name=prompt('Input name: ');
-    cmnd=prompt('Input cmnd: ');
-    email=prompt('Input email: ');
-    birthday=prompt('Input birthday: ');
-    address=prompt('Input address: ');
-    typeCustomer=prompt('Input typeCustomer: ');
-    disCount=prompt('Input disCount: ');
-    typeService=prompt('Input typeService: ');
-    rendDays=prompt('Input rendDays: ');
-    typeRoom=prompt('Input typeRoom: ');
-    quantityIncluded=prompt('Input quantityIncluded: ');
+    name = prompt('Input name: ');
+    cmnd = prompt('Input cmnd: ');
+    email = prompt('Input email: ');
+    birthday = prompt('Input birthday: ');
+    address = prompt('Input address: ');
+    typeCustomer = prompt('Input typeCustomer: ');
+    disCount = prompt('Input disCount: ');
+    typeService = prompt('Input typeService: ');
+    rentDays = prompt('Input rentDays: ');
+    typeRoom = prompt('Input typeRoom: ');
+    quantityIncluded = prompt('Input quantityIncluded: ');
 
     let totalPay;
-    if(typeService=='villa'){
-        totalPay=500*parseInt(rendDays)*(1-parseFloat(disCount/100));
+    if (typeService == 'villa') {
+        totalPay = 500 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
+        // alert(totalPay);
+    } else if (typeService == 'house') {
+        totalPay = 300 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
+        // alert(totalPay);
+    } else {
+        totalPay = 200 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
         // alert(totalPay);
     }
-    else if(typeService=='house'){
-        totalPay=300*parseInt(rendDays)*(1-parseFloat(disCount/100));
-        // alert(totalPay);
-    }else{
-        totalPay=200*parseInt(rendDays)*(1-parseFloat(disCount/100));
-        // alert(totalPay);
-    }
-    document.write('Name: '+name+'<br> rendDays: '+rendDays+'<br>typeService: '+typeService+'<br> disCount: '+disCount+'<br> TotalPay: '+totalPay);
+    alert('1. Họ và tên: ' + name + '\n' +
+        '2. Ngày tháng năm sinh: ' + birthday + '\n' +
+        '3. Địa chỉ: ' + address + '\n' +
+        '4. Địa chỉ email: ' + email + '\n' +
+        '5. Chứng minh nhân dân: ' + cmnd + '\n' +
+        '6. Loại khách hàng: ' + typeCustomer + '\n' +
+        '7. Giảm giá: ' + disCount + '\n' +
+        '8. Loại dịch vụ: ' + typeService + '\n' +
+        '9. Số ngày lưu trú: ' + rentDays + '\n' +
+        '10. Loại phòng: ' + typeRoom + '\n' +
+        '11. Số lượng đi kèm: ' + quantityIncluded + '\n' +
+        '12. Giá tiền sau khi được giảm giá: ' + totalPay);
 </script>
 </body>
 </html>

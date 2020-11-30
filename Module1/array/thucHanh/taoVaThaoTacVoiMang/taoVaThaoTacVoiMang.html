@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {padding-top:50px}
+    </style>
+</head>
+<body>
+<input type="text" id="txtValue"/>
+<input type="button" id="btnAdd" value="Add" onclick="add_element_to_array();"/>
+<input type="button" id="btnDisplay" value="Display" onclick="display_array();"/>
+<div id="result"></div>
+<script>
+    let x = 0;//x là chỉ số truy cập tới các phần tử trong mảng
+    let array =  Array();//tạo mảng để lưu các giá trị nhập vào
+
+    //tạo hàm để thêm mới 1 phần tử từ form
+    function add_element_to_array() {
+        //lấy giá trị từ input_text sau đó gán phần tử ở vị trí x
+        array[x] = document.getElementById("txtValue").value;
+        //hiển thị phần tử vừa được thêm vào mảng
+        alert("Element: " + array[x] +   " Added at index " + x);
+        x++;
+        document.getElementById("txtValue ").value = "";// gán giá trị rỗng cho input text
+    }
+   //tạo hàm để hiển thị các phần tử trong mảng
+    function display_array() {
+        let e = "<hr/>"; // biến e để lưu thẻ hr, dùng để phân tách các phần tử trong mảng
+        for (let i = 0; i < array.length; i++) {
+            e += "Element " + i + " = " + array[i] + "<br/>";
+        }
+        document.getElementById("result").innerHTML = e;
+    }
+
+</script>
+
+
+</body>
+</html>
