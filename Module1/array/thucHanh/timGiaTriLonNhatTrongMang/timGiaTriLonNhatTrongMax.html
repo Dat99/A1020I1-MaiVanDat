@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [-3, 5, 1, 3, 2, 10];
+    let max = numbers[0]; // gán giá trị lớn nhất  mặc đinh là phần tử đầu tiên của mảng
+    let index = 0;
+    for (let i = 1; i < numbers.length; i++)  { // duyệt mảng
+        if (numbers[i] > max) {
+            max = numbers[i]; // thực hiện việc gán giá trị lớn nhất
+            index = i;
+        }
+    }
+    alert("max: " + max + " at position " + index);
+</script>
+
+</body>
+</html>
