@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Phát triển một ứng dụng từ điển đơn giản. Ứng dụng cho phép tra cứu các từ tiếng Anh sang tiếng Việt.-->
+<!--Danh sách các từ được lưu trữ trong các mảng.-->
+<input type="text" placeholder="Nhap tu can tim" id="gd" >
+<button  onclick="sub()">submit</button>
+<script>
+    let el=["male","female"];
+    let vn=["nam", "nu"];
+
+    function sub() {
+        let check =true;
+       let a=document.getElementById('gd').value;
+       for(let i=0;i<el.length;i++){
+           if(a==el[i]){
+               check=false;
+               alert(vn[i]);
+               break;
+           }
+
+       }
+       if(check){
+           alert("Khong co!");
+       }
+
+    }
+</script>
+</body>
+</html>
