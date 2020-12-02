@@ -2,31 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Số nguyên tố</title>
+    <title>Title</title>
 </head>
 <body>
 <script>
+    //Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên.
     let number = parseInt(prompt("Enter a number: "));
     let count = 0;
-    let result = " ";
-    while (count < 20) {
+    let result = 0;
+    while (count < 30) {
         let check = true;
-        for (let n = 2; n < number; n++) {
-            //kiểm tra số nhập vào từ bàn phím có phải là số nguyên tố hay không
-            if (number % n === 0) {
+        for (let i = 0; i < 30; i++) {
+            if (number % 7 != 0) {
                 check = false;
                 break;
             }
         }
-
         if (check) {
-            result +=number+ "<br>";
+            result += number;
             count++;
         }
         number++;
     }
     document.write(result);
-
 </script>
 </body>
 </html>

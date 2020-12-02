@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c728227b-eb11-45a8-8821-7c6961142876" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../luyenTapVongLap01/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapVongLap01/bai6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../array/thucHanh/taoBanCoCaroDonGian/taoBanCaroDonGian.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../array/thucHanh/taoBanCoCaroDonGian/taoBanCaroDonGian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../caseStudy/yeuCau1/yeuCau1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../caseStudy/yeuCau1/yeuCau1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../caseStudy/yeuCau2/yeuCau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../caseStudy/yeuCau2/yeuCau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyenTapVongLap01/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../luyenTapVongLap01/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyenTapVongLap01/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../luyenTapVongLap01/bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyenTapVongLap01/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../luyenTapVongLap01/bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../soNguyenTo/soNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../soNguyenTo/soNguyenTo.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1l5QG4OWIXLIA6h4uHb9Uk6Pmu5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c728227b-eb11-45a8-8821-7c6961142876" name="Default Changelist" comment="" />
+      <created>1606884372094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606884372094</updated>
+      <workItem from="1606884373316" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="276" key="FileChooserDialogImpl" timestamp="1606884382312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606884382312" />
+  </component>
+</project>

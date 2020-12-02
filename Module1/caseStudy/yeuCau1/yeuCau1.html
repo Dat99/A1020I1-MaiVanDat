@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+
 <script>
     let name;
     let cmnd;
@@ -16,10 +17,10 @@
     let typeService;
     let rentDays;
     let typeRoom;
-    let quantityIncluded;
+    let quantityIncluded; //số lượng đi kèm
 
     name = prompt('Input name: ');
-    cmnd = prompt('Input cmnd: ');
+    cmnd = prompt('Input people card: ');
     email = prompt('Input email: ');
     birthday = prompt('Input birthday: ');
     address = prompt('Input address: ');
@@ -33,26 +34,24 @@
     let totalPay;
     if (typeService == 'villa') {
         totalPay = 500 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
-        // alert(totalPay);
     } else if (typeService == 'house') {
         totalPay = 300 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
-        // alert(totalPay);
-    } else {
-        totalPay = 200 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
-        // alert(totalPay);
+    } else if(typeService=="room"){
+        totalPay = 100 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
     }
-    alert('1. Họ và tên: ' + name + '\n' +
-        '2. Ngày tháng năm sinh: ' + birthday + '\n' +
-        '3. Địa chỉ: ' + address + '\n' +
-        '4. Địa chỉ email: ' + email + '\n' +
-        '5. Chứng minh nhân dân: ' + cmnd + '\n' +
-        '6. Loại khách hàng: ' + typeCustomer + '\n' +
-        '7. Giảm giá: ' + disCount + '\n' +
-        '8. Loại dịch vụ: ' + typeService + '\n' +
-        '9. Số ngày lưu trú: ' + rentDays + '\n' +
-        '10. Loại phòng: ' + typeRoom + '\n' +
-        '11. Số lượng đi kèm: ' + quantityIncluded + '\n' +
-        '12. Giá tiền sau khi được giảm giá: ' + totalPay);
+    //hiển thị thông tin sau khi được người dùng nhập vào
+    alert('1. Name: ' + name + '\n' +
+        '2. Birthday: ' + birthday + '\n' +
+        '3. Address: ' + address + '\n' +
+        '4. Email: ' + email + '\n' +
+        '5. People card: ' + cmnd + '\n' +
+        '6. Customer types: ' + typeCustomer + '\n' +
+        '7. Discount: ' + disCount + '\n' +
+        '8. Service types: ' + typeService + '\n' +
+        '9. RentDays: ' + rentDays + '\n' +
+        '10. Room types: ' + typeRoom + '\n' +
+        '11. quantityIncluded: ' + quantityIncluded + '\n' +
+        '12. Money after discount: ' + totalPay);
 </script>
 </body>
 </html>

@@ -18,98 +18,98 @@
     let typeRoom = 'vip';
     let quantityIncluded = '2';
 
-    let choose = prompt('1. Hiển thị thông tin khách hàng' + '\n' +
-        '2. Chỉnh sửa thông tin khách hàng' + '\n' +
-        '3. Hiển thị giá sau khi được giảm giá');
+    let choose = prompt('1. Display customer information' + '\n' +
+        '2.Edit customer information' + '\n' +
+        '3. Display money after discount');
 
     switch (choose) {
         case '1': {
-            alert('1. Họ và tên: ' + name + '\n' +
-                '2. Ngày tháng năm sinh: ' + birthday + '\n' +
-                '3. Địa chỉ: ' + address + '\n' +
-                '4. Địa chỉ email: ' + email + '\n' +
-                '5. Chứng minh nhân dân: ' + cmnd + '\n' +
-                '6. Loại khách hàng: ' + typeCustomer + '\n' +
-                '7. Giảm giá: ' + disCount + '\n' +
-                '8. Loại dịch vụ: ' + typeService + '\n' +
-                '9. Số ngày lưu trú: ' + rentDays + '\n' +
-                '10. Loại phòng: ' + typeRoom + '\n' +
-                '11. Số lượng đi kèm: ' + quantityIncluded);
+            alert('1. Name: ' + name + '\n' +
+                '2. Birthday: ' + birthday + '\n' +
+                '3. Address: ' + address + '\n' +
+                '4. Email: ' + email + '\n' +
+                '5. People card: ' + cmnd + '\n' +
+                '6. Customer type: ' + typeCustomer + '\n' +
+                '7. Discount: ' + disCount + '\n' +
+                '8. Service type: ' + typeService + '\n' +
+                '9. RentDay: ' + rentDays + '\n' +
+                '10. Room type: ' + typeRoom + '\n' +
+                '11. Quantity Included: ' + quantityIncluded);
             break;
         }
         case '2': {
-            let chooseEdit = parseInt(prompt('1. Họ và tên: ' + name + '\n' +
-                '2. Ngày tháng năm sinh: ' + birthday + '\n' +
-                '3. Địa chỉ: ' + address + '\n' +
-                '4. Địa chỉ email: ' + email + '\n' +
-                '5. Chứng minh nhân dân: ' + cmnd + '\n' +
-                '6. Loại khách hàng: ' + typeCustomer + '\n' +
-                '7. Giảm giá: ' + disCount + '\n' +
-                '8. Loại dịch vụ: ' + typeService + '\n' +
-                '9. Số ngày lưu trú: ' + rentDays + '\n' +
-                '10. Loại phòng: ' + typeRoom + '\n' +
-                '11. Số lượng đi kèm: ' + quantityIncluded));
+            let chooseEdit = parseInt(prompt('1. Name: ' + name + '\n' +
+                '2. birthday: ' + birthday + '\n' +
+                '3. Address: ' + address + '\n' +
+                '4. Email: ' + email + '\n' +
+                '5. People card: ' + cmnd + '\n' +
+                '6. Customer type: ' + typeCustomer + '\n' +
+                '7. Discount: ' + disCount + '\n' +
+                '8. Service type: ' + typeService + '\n' +
+                '9. RentDays: ' + rentDays + '\n' +
+                '10. Room type: ' + typeRoom + '\n' +
+                '11. Quantity Included: ' + quantityIncluded));
 
             switch (chooseEdit) {
                 case 1 : {
-                    name = prompt('Họ và tên: ');
+                    name = prompt('Name: ');
                     break;
                 }
                 case 2: {
-                    cmnd = prompt('Chứng minh nhân dân: ');
+                    birthday = prompt('Birthday: ');
                     break;
                 }
                 case 3: {
-                    address = prompt("Địa chỉ cư trú: ");
+                    address = prompt("Address: ");
                     break;
                 }
                 case 4: {
-                    email = prompt('Địa chỉ email: ');
+                    email = prompt('Email: ');
                     break;
                 }
                 case 5: {
-                    birthday = prompt('Ngày tháng năm sinh: ');
+                    cmnd = prompt('People card: ');
                     break;
                 }
                 case 6: {
-                    typeCustomer = prompt('Loại khách hàng: ');
+                    typeCustomer = prompt('Customer type: ');
                     break;
                 }
                 case 7: {
-                    typeRoom = prompt('Loại phòng: ');
+                    disCount = prompt('Discount:  ');
                     break;
                 }
                 case 8: {
-                    typeService = prompt('Loại dịch vụ: ');
+                    typeService = prompt('Service type:  ');
                     break;
                 }
                 case 9: {
-                    quantityIncluded = prompt('Số lượng đi kèm: ');
+                   rentDays = prompt('RentDays: ');
                     break;
                 }
                 case 10: {
-                    disCount = prompt('Giảm giá: ');
+                    typeRoom = prompt('Room type: ');
                     break;
                 }
                 case 11: {
-                    rentDays = prompt('Số ngày lưu trú: ');
+                    quantityIncluded = prompt(' Quantity Included:');
                     break;
                 }
                 default: {
                     alert('Failed');
                 }
             }
-            alert('1. Họ và tên: ' + name + '\n' +
-                '2. Ngày tháng năm sinh: ' + birthday + '\n' +
-                '3. Địa chỉ: ' + address + '\n' +
-                '4. Địa chỉ email: ' + email + '\n' +
-                '5. Chứng minh nhân dân: ' + cmnd + '\n' +
-                '6. Loại khách hàng: ' + typeCustomer + '\n' +
-                '7. Giảm giá: ' + disCount + '\n' +
-                '8. Loại dịch vụ: ' + typeService + '\n' +
-                '9. Số ngày lưu trú: ' + rentDays + '\n' +
-                '10. Loại phòng: ' + typeRoom + '\n' +
-                '11. Số lượng đi kèm: ' + quantityIncluded);
+            alert('1. Name: ' + name + '\n' +
+                '2. Birthday: ' + birthday + '\n' +
+                '3. Address: ' + address + '\n' +
+                '4. Email: ' + email + '\n' +
+                '5. People card: ' + cmnd + '\n' +
+                '6. Customer type: ' + typeCustomer + '\n' +
+                '7. Discount: ' + disCount + '\n' +
+                '8. Service type: ' + typeService + '\n' +
+                '9. RentDays: ' + rentDays + '\n' +
+                '10.Room type: ' + typeRoom + '\n' +
+                '11.Quantity Included: ' + quantityIncluded);
             break;
         }
 

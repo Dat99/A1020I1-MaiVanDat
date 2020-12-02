@@ -7,22 +7,23 @@
 <body>
 <script>
     // 0 1 1 2 3 5 8
-    let num=parseInt(prompt("Enter a number: "));
-    let a =0;
-    let b=1;
-    let c="";
-    let string = a+"<br>"+b+"<br>";
-    for (let i=0; i<=num;i++){
-        c=a+b;
-        string += c+"<br>";
-        a=b;
-        b=c;
-        num++;
-        if(num%5==0){
-            alert(num);
+    // Tìm số đầu tiên trong dãy fibonacci chia hết cho 5
+    let number = parseInt(prompt("Enter a number: "));
+    let a = 0;
+    let b = 1;
+    let c = "";
+    let check = true;
+    let string = a + "<br>" + b + "<br>";
+    for (let i = 0; i <= number; i++) {
+        c = a + b;
+        string += c + "<br>";
+        a = b;
+        b = c;
+        if (check && c % 5 == 0) {
+            document.write("Số đầu tiên chia hết cho 5 là: " + c);
+            break;
         }
     }
-    // document.write(string);
 </script>
 </body>
 </html>

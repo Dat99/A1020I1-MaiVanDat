@@ -5,11 +5,19 @@
     <title>Title</title>
 </head>
 <body>
-//0 1 2 3 5 8 13
 <script>
-    let a=0;
-    let b=1;
-    let string=
+    // 0 1 1 2 3 5 8
+    let a = 0;
+    let b = 1;
+    let c = " ";
+    let string = a + "<br>" + b + "<br>";
+    for (let i = 0; i < 18; i++) {
+        c = a + b;
+        string += c + "<br> ";
+        a = b; // gán a =b
+        b = c; // gán b =c
+    }
+    document.write(string);
 </script>
 </body>
 </html>
