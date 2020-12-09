@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="text" placeholder="Fahrenheit"
+               oninput="temperatureConverter(this.value)">
+<!--               onchange="temperatureConverter(this.value)">-->
+        <!--thuộc tính oninput được kích hoạt khi người dùng nhập hoặc thay đổi thông tin trong thẻ-->
+        <!--onchange tương tụ oninput nhưg thay đổi khi ta trỏ chuột sang 1 thành phần khác-->
+    </p>
+    <p>Celsius: <span id="outputCelsius"></span></p>
+</form>
+
+<script>
+
+    function temperatureConverter(valNum) {
+        valNum = parseFloat(valNum);
+        document.getElementById("outputCelsius").innerHTML = (valNum-32) / 1.8;
+    }
+
+</script>
+</body>
+</html>

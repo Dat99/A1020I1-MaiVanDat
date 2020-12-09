@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let num = prompt("Enter a  num: ");
+    // let count = 0;
+    // let check = true;
+
+    isPrime(1000);
+
+    function isPrime(n) {
+        let result = " ";
+        for (let k = 2; k <= n; k++) {
+            let check = true;
+            for (let i = 2; i < k; i++) {
+                if (k % i === 0) {
+                    check = false;
+                    break;
+                }
+            }
+            if (check) {
+                result += k + "<br>";
+            }
+        }
+
+        document.write(result);
+    }
+
+
+</script>
+
+</body>
+</html>
