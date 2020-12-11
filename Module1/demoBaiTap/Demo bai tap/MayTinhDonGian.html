@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MayTinhDonGian</title>
+</head>
+<body>
+<input type="text" id="input">
+<table>
+    <tr>
+        <td><input type="button" value="1" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="2" onclick="nhap(this.value)"></td>
+        <td><input  type="button" value="3" onclick="nhap(this.value)"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="+"onclick="nhap(this.value)"></td>
+        <td><input  type="button" value="-" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="=" onclick="bang()"></td>
+        <td><input type="button" value="clear" onclick="xoa()"></td>
+    </tr>
+</table>
+<script>
+function nhap(num) {
+    document.getElementById("input").value=document.getElementById("input").value+ num;
+}
+function bang() {
+    let string=  document.getElementById("input").value;
+    let res = eval(string);
+    document.getElementById("input").value=res;
+}
+function xoa() {
+    document.getElementById("input").value="";
+}
+</script>
+</body>
+</html>

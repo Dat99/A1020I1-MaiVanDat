@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="ip" value="Giá trị mặc định">
+<select id="se">
+    <option value="1">Giá trị 1</option>
+    <option value="2">Giá trị 2</option>
+    <option value="3">Giá trị 3</option>
+</select>
+<input type="button" value="Nut" onclick="layGiTri()">
+<p id="ketQua"> Ket Qua</p>
+<script>
+    // let a = prompt("nhap mot so");
+    // alert(a);
+    // console.log(a);
+    // document.write(a);
+
+    // document.getElementById("ketQua").innerHTML="<button>Nút</button>";
+    function layGiTri() {
+        let b= document.getElementById("ip").value;
+        let c= document.getElementById("se").value;
+        document.write(b)
+        document.write(c)
+    }
+</script>
+</body>
+</html>
