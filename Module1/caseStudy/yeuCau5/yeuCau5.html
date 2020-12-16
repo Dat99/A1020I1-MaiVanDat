@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HÀM</title>
+</head>
+<body>
+<script>
+    let arrListCustomers = [];
+
+    let confirmAnswer = confirm("Lựa chọn của bạn là: ");
+    let theAnswer=displayMainMenu(confirmAnswer);
+    alert(theAnswer);
+    function displayMainMenu() {
+        alert(parseInt (prompt ("1.Add new customer" + '\n' +
+            "2.Display Information Customer." + '\n' +
+            "3.Edit Information Customer." + '\n' +
+            "4.Delete Customer" + '\n' +
+            "5.Exit")));
+    }
+
+    //khi người dùng chọn add new customer chương trình sẽ gọi hàm Add new customer
+    function AddNewCustomer() {
+        let nameCustomer = prompt("Enter name Customer: ");
+
+        arrListCustomers.push(nameCustomer);
+
+
+    }
+
+    let arr = [
+    ]
+</script>
+</body>
+</html>

@@ -18,11 +18,13 @@
     let typeRoom = 'vip';
     let quantityIncluded = '2';
 
+    //tạo 1 trình đơn để lựa chọn các chức năng
     let choose = prompt('1. Display customer information' + '\n' +
         '2.Edit customer information' + '\n' +
         '3. Display money after discount');
 
     switch (choose) {
+        // hiển thị thông tin khách hàng
         case '1': {
             alert('1. Name: ' + name + '\n' +
                 '2. Birthday: ' + birthday + '\n' +
@@ -37,6 +39,7 @@
                 '11. Quantity Included: ' + quantityIncluded);
             break;
         }
+        //Chỉnh sửa thông tin khách hàng và sau đó hiển thị lại
         case '2': {
             let chooseEdit = parseInt(prompt('1. Name: ' + name + '\n' +
                 '2. birthday: ' + birthday + '\n' +

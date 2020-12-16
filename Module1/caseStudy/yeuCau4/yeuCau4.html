@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrNameCustormers = [];
+    while (1) {
+        let choose = parseInt(prompt("1.Add Name Customer" + '\n' + "2.Delete Customer"));
+        switch (choose) {
+            // thêm tên khách hàng vào mảng
+            case 1: {
+                let number = prompt("Enter number customer you want to add arr: ");
+                for (let i = 0; i < number; i++) {
+                    let nameCustomer = prompt("Enter name of customer  "); // nhập tên khách hàng
+                    arrNameCustormers.push(nameCustomer); // thêm tên khách hàng vào mảng
+                }
+                let result = "";
+                arrNameCustormers.sort();
+                for (let i = 0; i < arrNameCustormers.length; i++) {
+                    result += (i + 1) + "." + arrNameCustormers[i] + "\n";
+                }
+                alert(result);
+                break;
+            }
+            //xóa tên khách hàng và sau đó hiển thị lại danh sách khách hàng
+            case 2: {
+                let nameCustomer = prompt("Enter customer you want delete arr: ");
+                for (let i = 0; i < arrNameCustormers.length; i++) {
+                    if (arrNameCustormers[i] === nameCustomer) {
+                        arrNameCustormers.splice(i, 1);
+                    }
+                }
+                let result = "";
+                arrNameCustormers.sort();
+                for (let i = 0; i < arrNameCustormers.length; i++) {
+                    result += (i + 1) + "." + arrNameCustormers[i] + "\n";
+                }
+                alert(result);
+                break;
+            }
+            default:
+                alert("failed!");
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

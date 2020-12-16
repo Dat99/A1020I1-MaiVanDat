@@ -6,24 +6,33 @@
 </head>
 <body>
 <script>
-    function minArray(arr) {
-        if(arr.length == 0)
-            return -1; // hàm trả về giá trị bằng -1 khi mảng không có phần tử nào
 
+    function minArray(arr) {
+        if (arr.length == 0)
+            return -1; // hàm trả về giá trị bằng -1 khi mảng không có phần tử nào
         let min = arr[0];
-        for(let i = 1; i < arr.length; i++){
-            if(arr[i] < min){
+        for (let i = 1; i < arr.length; i++) {
+            if (arr[i] < min) {
                 min = arr[i];
             }
         }
         return min;
     }
+    //khái báo mảng nhập từ bàn phím
+    let a=new Array(n);
+    let n = prompt('nhap do dai cua mang');
+    a.length = n;
+    for(let i=0;i<a.length;i++){
+        a[i] =parseInt(prompt("nhap phan tu thu: "+ i));
+    }
+    let min =minArray(a);
+    alert(min);
 
-    //kiểm tra giá trị nhỏ nhất của mạng arr1 có kết quả là -3
+    // kiểm tra giá trị nhỏ nhất của mạng arr1 có kết quả là -3
     // let arr1 = [3, 5, 1, 8, -3, 7, 8];
     // let min = minArray(arr1);
     // alert(min);
-    //
+
     // let arr2 = [7, 12, 6, 9, 20, 56, 89];
     // let min = minArray(arr2);
     // alert(min);
@@ -32,9 +41,9 @@
     // let min=minArray(arr4);
     // alert(min);
 
-    let arr3=[];
-    let min=minArray(arr3);
-    alert(min);
+    // let arr3 = [];
+    // let min = minArray(arr3);
+    // alert(min);
 
 
 </script>
