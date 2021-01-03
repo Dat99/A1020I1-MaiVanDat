@@ -7,6 +7,7 @@
 <body>
 <script>
     let arrListCustomer = [];
+
     function displayMainMenu() {
         let choose = parseInt(prompt(
             "1. Add New Customer. \n" +
@@ -41,7 +42,9 @@
             }
         }
     }
+
     displayMainMenu();
+
     function addNewCustomer() {
         let name = prompt("Input Name: ");
         let cmnd = prompt("Input CMND: ");
@@ -54,14 +57,15 @@
         let discount = prompt("Input Discount: ");
         let quantityIncluded = prompt("Input Quantity Included: ");
         let rendDays = prompt("Input rendDays: ");
-        arrListCustomer.push([name,cmnd,birthday,email,address,typeService,typeCustomer,typeRoom,discount,quantityIncluded,rendDays]);
+        arrListCustomer.push([name, cmnd, birthday, email, address, typeService, typeCustomer, typeRoom, discount, quantityIncluded, rendDays]);
         alert("Bạn đã thêm thành công");
         displayMainMenu();
     }
+
     function displayCustomer() {
         let temp = "";
-        for (let i = 0; i < arrListCustomer.length; i++){
-            temp+=i + ". " + arrListCustomer[i][0]+ "\n";
+        for (let i = 0; i < arrListCustomer.length; i++) {
+            temp += i + ". " + arrListCustomer[i][0] + "\n";
         }
         let chooseDisplay = parseInt(prompt(temp));
         alert(
@@ -78,10 +82,11 @@
             "11.Số lượng ngày: " + arrListCustomer[chooseDisplay][10]);
         displayMainMenu();
     }
+
     function editCustomer() {
         let temp = "";
-        for (let i = 0; i < arrListCustomer.length; i++){
-            temp+= i + ". Name:" + arrListCustomer[i][0]+ "\n";
+        for (let i = 0; i < arrListCustomer.length; i++) {
+            temp += i + ". Name:" + arrListCustomer[i][0] + "\n";
         }
         let chooseDisplay = parseInt(prompt(temp));
         let chooseEdit = parseInt(prompt(
@@ -147,17 +152,18 @@
         }
         editCustomer();
     }
+
     function deleteCustomer() {
         let temp = "";
-        for (let i = 0; i < arrListCustomer.length; i++){
-            temp+= i + ". Name: " + arrListCustomer[i][0]+ "\n";
+        for (let i = 0; i < arrListCustomer.length; i++) {
+            temp += i + ". Name: " + arrListCustomer[i][0] + "\n";
         }
         let chooseDelete = parseInt(prompt(temp));
-        let confirm = parseInt(prompt("Bạn có muốn xoá Customer? " + "\n" + "1. Yes \n" + "2. No"));
-        if (confirm===1){
-            arrListCustomer.splice(chooseDelete,1);
+        let confirm = parseInt(prompt("Bạn có muốn xoá Customer? " + "\n" + "1. Yes \n" + "2. No"));// hoặc dùng check
+        if (confirm === 1) {
+            arrListCustomer.splice(chooseDelete, 1);
             alert("Bạn đã xoá thành công Customer");
-        }else {
+        } else {
             alert("Cancel!!!");
         }
         displayMainMenu();

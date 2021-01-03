@@ -23,18 +23,18 @@
     //chữ cái đầu tiên)
     let tempName = "";
     name = prompt('Input name: ');
-    name = name.trim().toLocaleLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
+    name = name.trim().toLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
     for (let i = 0; i < name.length; i++) {
         if (name.charAt(i) === " " && name.charAt(i + 1) === " ") {
             continue; // nếu kí tự i và tiếp theo là khoảng trống thì không thực hiện câu lệnh tempName += name.....
         }
         if (i === 0 || name.charAt(i - 1) === " ") {  // chữ cái đầu tiên và kí tự trước 1 khoảng trống thì in hoa
-            tempName += name.charAt(i).toLocaleUpperCase();// biến chữ thường thành hoa
+            tempName += name.charAt(i).toUpperCase();// biến chữ thường thành hoa
             continue; // bỏ qua câu lệnh tempName +=name.charAt(i)
         }
         tempName += name.charAt(i);
     }
-    name=tempName;
+    name = tempName;
 
 
     //chứng minh nhân dân phải đúng theo định dạng XXXXXXXX với X là số nguyên dương.
@@ -73,12 +73,12 @@
                 }
             }
         }
-        if (countAt != 1 || countDoc < 1) {
+        if (countAt !== 1 || countDoc < 1) {
             alert("Email của bạn nhập không đúng.");
         } else {
             check = true;
         }
-    } while (!check)
+    } while (!check);
 
     check = false;// nếu không sửa lại check bằng false thì các biến sau sẽ hiểu check bằng true( thừa kế từ email)
     //Ngày sinh phải đúng theo định dạng DD/MM/YYYY
@@ -104,7 +104,7 @@
             alert("Ngày sinh không đúng định dạng.");
         }
 
-    } while (!check)
+    } while (!check);
     check = false;
 
 
@@ -112,46 +112,40 @@
     //chữ cái đầu tiên)
     let tempAddress = "";
     address = prompt('Input address: ');
-    address = address.trim().toLocaleLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
+    address = address.trim().toLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
     for (let i = 0; i < address.length; i++) {
         if (address.charAt(i) === " " && address.charAt(i + 1) === " ") {
             continue; // nếu kí tự i và tiếp theo là khoảng trống thì không thực hiện câu lệnh tempAddress += name.....
         }
         if (i === 0 || address.charAt(i - 1) === " ") {  // chữ cái đầu tiên và kí tự trước 1 khoảng trống thì in hoa
-            tempAddress += address.charAt(i).toLocaleUpperCase();// biến chữ thường thành hoa
+            tempAddress += address.charAt(i).toUpperCase();// biến chữ thường thành hoa
             continue; // bỏ qua câu lệnh tempAddress +=name.charAt(i)
         }
         tempAddress += address.charAt(i);
     }
-    address=tempAddress;
+    address = tempAddress;
 
 
     // xóa bỏ tất cả khoảng trống thừa trong loại khách hàng và chuẩn hóa dữ liệu(có nghĩa sau khoảng trắng phải viết hoa
     //chữ cái đầu tiên)
     let tempTypeCustomer = "";
-    typeCustomer= prompt('Input typeCustomer: ');
-    typeCustomer = typeCustomer.trim().toLocaleLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
+    typeCustomer = prompt('Input typeCustomer: ');
+    typeCustomer = typeCustomer.trim().toLowerCase(); // loại bỏ những kí tự trống ở 2 đầu và chuẩn hóa dữ liệu ban đầu về thường
     for (let i = 0; i < typeCustomer.length; i++) {
         if (typeCustomer.charAt(i) === " " && typeCustomer.charAt(i + 1) === " ") {
             continue; // nếu kí tự i và tiếp theo là khoảng trống thì không thực hiện câu lệnh tempName += name.....
         }
         if (i === 0 || name.charAt(i - 1) === " ") {  // chữ cái đầu tiên và kí tự trước 1 khoảng trống thì in hoa
-            tempTypeCustomer += typeCustomer.charAt(i).toLocaleUpperCase();// biến chữ thường thành hoa
+            tempTypeCustomer += typeCustomer.charAt(i).toUpperCase();// biến chữ thường thành hoa
             continue; // bỏ qua câu lệnh tempName +=name.charAt(i)
         }
         tempTypeCustomer += typeCustomer.charAt(i);
     }
-    typeCustomer=tempTypeCustomer;
-
-
-
-
-
+    typeCustomer = tempTypeCustomer;
 
 
     disCount = prompt('Input disCount: ');
     typeService = prompt('Input typeService: ');
-
 
 
     // định dạng số ngày thuê phải là số nguyên dương
@@ -159,7 +153,7 @@
         rentDays = prompt('Input rentDays: ');
         if (!isNaN(rentDays)) { // kiểm tra xem có biến rentdays có phải là số hay không
             rentDays = Number.parseFloat(rentDays);
-            if (Number.isInteger(rentDays && rentDays > 0)) { // kiểm tra xem có phải là số nguyên dương hay không
+            if (Number.isInteger(rentDays) && rentDays > 0) { // kiểm tra xem có phải là số nguyên dương hay không
                 check = true;
             }
         }
@@ -175,7 +169,7 @@
         quantityIncluded = prompt('Input quantityIncluded: ');
         if (!isNaN(quantityIncluded)) { // kiểm tra xem có phải kiểu số hay không
             quantityIncluded = Number.parseFloat(quantityIncluded);
-            if (Number.isInteger(quantityIncluded && quantityIncluded > 0)) {
+            if (Number.isInteger(quantityIncluded) && quantityIncluded > 0) {
                 check = true;
             }
         }

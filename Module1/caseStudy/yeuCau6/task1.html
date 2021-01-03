@@ -7,7 +7,7 @@
 <body>
 <script>
     let arrListCustomer = [];
-    class Customer{
+    class Customer{// tên class đặt theo nguyên tắc pascal
         constructor(name,cmnd,birthday,email,address,typeService,typeRoom,typeCustomer,discount,quantityIncluded,rendDays) {
             this.name = name;
             this.cmnd = cmnd;
@@ -143,7 +143,7 @@
     function addNewCustomer() {
         let check = false;
         let regexCMND = /^[\d]{9,9}$/;
-        let regexBirthDay = /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/;
+        let regexBirthDay   = /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/;
         let regexEmail = /\S+@\S+\.\S+/;
         let regexDiscount = /^\d+$/;
         let regexQuantityIncluded = /^\d+$/;

@@ -25,7 +25,7 @@
     email = prompt('Input email: ');
     birthday = prompt('Input birthday: ');
     address = prompt('Input address: ');
-    typeCustomer = prompt('Input typeCustomer: ');
+    typeCustomer = prompt('Input type Customer: ');
     disCount = prompt('Input disCount: ');
     typeService = prompt('Input typeService: ');
     rentDays = prompt('Input rentDays: ');
@@ -38,7 +38,7 @@
         totalPay = 500 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
     } else if (typeService == 'house') {
         totalPay = 300 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
-    } else if (typeService == "room"    ) {
+    } else if (typeService == "room" ) {
         totalPay = 100 * parseInt(rentDays) * (1 - parseFloat(disCount / 100));
     }
 
