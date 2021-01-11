@@ -7,9 +7,9 @@
 <body>
 <script>
     let arrListCustomer = [];
-    class Customer{// tên class đặt theo nguyên tắc pascal
-        constructor(name,cmnd,birthday,email,address,typeService,typeRoom,typeCustomer,discount,quantityIncluded,rendDays) {
-            this.name = name;
+    class Customer{// tên class đặt theo nguyên tắc pascalcase
+        constructor(name,cmnd,birthday,email,address,typeService,typeRoom,typeCustomer,discount,quantityIncluded,rendDays) { // phương thức khởi tạo
+            this.name = name; // đối tượng hiện tại là name
             this.cmnd = cmnd;
             this.birthday = birthday;
             this.email = email;
@@ -21,7 +21,7 @@
             this.quantityIncluded = quantityIncluded;
             this.rendDays = rendDays;
         }
-        getName(){
+        getName(){ // trả về tên
             return this.name;
         }
         setName(name){
@@ -243,7 +243,7 @@
             "5.Địa Chỉ: " + arrListCustomer[chooseDisplay].getAddress() + "\n" +
             "6.Loại Dịch Vụ: " + arrListCustomer[chooseDisplay].getTypeService() + "\n" +
             "7.Loại Phòng: " + arrListCustomer[chooseDisplay].getTypeRoom() + "\n" +
-            "8.Loại Customer: " + arrListCustomer[chooseDisplay].getTypeCustomer() + "\n" +
+            "8.Loại Customer: " + arrListCustomer[chooseDisplay]    .getTypeCustomer() + "\n" +
             "9.Giảm Giá: " + arrListCustomer[chooseDisplay].getDiscount() + "\n" +
             "10.Số lượng đi kèm: " + arrListCustomer[chooseDisplay].getQuantityIncluded() + "\n" +
             "11.Số lượng ngày: " + arrListCustomer[chooseDisplay].getRendDays());

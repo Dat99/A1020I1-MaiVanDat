@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[];
+    let result=0;
+    for(let i=0; i<20;i++){
+        let number=prompt("Nhập vào các phần tử: ");
+        arr.push(number);
+        if(number%3==0 &&number%5==0){
+            result +=number;
+        }
+    }
+    console.log(result);
+</script>
+
+</body>
+</html>

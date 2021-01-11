@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let listCustomer = [];
+    class Customer{
+        constructor(name,sdt,email,id,address) {
+            this.name = name;
+            this.id = id;
+            this.sdt = sdt;
+            this.email = email;
+            this.address = address;
+        }
+        getNameCustomer(){
+            return this.name;
+        }
+
+        getSDTCustomer(){
+            return this.sdt;
+        }
+        getIdCustomer(){
+            return this.id;
+        }
+        getAddressCustomer(){
+            return this.address;
+        }
+        getSDTCustomer(){
+            return this.sdt;
+        }
+
+
+
+
+        setSDTCustomer(sdt){
+            this.sdt = sdt;
+        }
+        setNameCustomer(name){
+            this.name = name;
+        }
+        setEmailCustomer(email){
+            this.email = email;
+        }
+        setAddressCustomer(address){
+            this.address = address;
+        }
+        setIdCustomer(id){
+            this.id = id;
+        }
+    }
+    function displayMainMenu() {
+        let choose = parseInt(prompt(
+            "1. Add New Customer. \n" +
+            "2. Display Information Customer. \n"
+        ));
+        while (true) {
+            switch (choose) {
+                case 1: {
+                    addNewCustomer();
+                    break;
+                }
+                case 2: {
+                    displayInfoCustomer();
+                    break;
+                }
+                default:
+                    alert("false");
+                    return;
+            }
+        }
+    }
+    displayMainMenu();
+    function addNewCustomer() {
+        let Customer = new Customer();
+        Customer.setNameCustomer(prompt("Enter Name: "));
+        Customer.setEmailCustomer(prompt("Enter Email: "));
+        Customer.setSDTCustomer(prompt("Enter SDT"));
+        listCustomer.push(Customer);
+        alert("Bạn đã thêm thành công Customer");
+        displayMainMenu();
+    }
+    function displayInfoCustomer(){
+        let temp = [];
+        for (let i = 0; i < listCustomer.length; i++){
+            temp += i+ ". Name: " + listCustomer[i].getNameCustomer() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(temp));
+        alert(
+            "1.Tên: " + listCustomer[chooseDisplay].getNameCustomer() + "\n" +
+            "3.Email: " + listCustomer[chooseDisplay].getEmailCustomer() + "\n" +
+            "5.SDT: " + listCustomer[chooseDisplay].getSDTCustomer() + "\n" +
+            "7.Vị Trí: " + listCustomer[chooseDisplay].getLocationCustomer()
+        );
+        displayMainMenu();
+    }
+
+</script>
+</body>
+</html>
