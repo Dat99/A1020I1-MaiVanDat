@@ -6,9 +6,9 @@ public class Money {
     public static void main(String[] args) {
         System.out.println("Nhập tỉ giá USD muốn chuyển sang VND: ");
         Scanner scanner =new Scanner(System.in);
-        int USD=scanner.nextInt();
+        int usd=scanner.nextInt();
 
-        int rate = 23000*USD;
+        int rate = 23000*usd;
         System.out.println("Rate:"+rate);
     }
 }
