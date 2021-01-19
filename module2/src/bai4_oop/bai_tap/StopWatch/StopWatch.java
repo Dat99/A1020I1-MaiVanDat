@@ -1,44 +1,57 @@
 package bai4_oop.bai_tap.StopWatch;
 
+import java.util.Scanner;
+
 public class StopWatch {
-    private long startTime = 0;
-    private long stopTime = 0;
-    private boolean running = false;
+    private long startTime;
+    private long endTime;
+
+    public StopWatch() {
+    }
+
     public void start() {
-        this.startTime = System.nanoTime();
-        this.running = true;
+        startTime = System.currentTimeMillis();
     }
-    public void stop() {
-        this.stopTime = System.nanoTime();
-        this.running = false;
+
+    public void end() {
+        endTime = System.currentTimeMillis();
     }
-    //elaspsed time in milliseconds
+
     public long getElapsedTime() {
-        long elapsed;
-        if (running) {
-            elapsed = (System.nanoTime() - startTime);
-        } else {
-            elapsed = (stopTime - startTime);
-        }
-        return elapsed;
+        return endTime - startTime;
     }
-    //elaspsed time in seconds
-    public long getElapsedTimeSecs() {
-        long elapsed;
-        if (running) {
-            elapsed = ((System.nanoTime() - startTime) / 1000);
-        } else {
-            elapsed = ((stopTime - startTime) / 1000);
-        }
-        return elapsed;
-    }
+
+
+
     public static void main(String[] args) {
-        StopWatch watch = new StopWatch();
-        System.out.println(watch.getElapsedTime());
-        System.out.println(watch.getElapsedTimeSecs());
-        watch.start();
-        watch.stop();
-        System.out.println(watch.getElapsedTime());
-        System.out.println(watch.getElapsedTimeSecs());
+        StopWatch stopWatch = new StopWatch();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Start stop watch? Y/N");
+        char choice = scanner.next().charAt(0);
+        switch (choice) {
+            case 'Y':
+            case 'y':
+                stopWatch.start();
+                System.out.println("Counting...");
+                System.out.println("Input \"show\" if you want to show elapsed time, \"stop\" if you want to stop.");
+                String command;
+                do {
+                    command = scanner.nextLine();
+                    if (command.equals("show")) {
+                        stopWatch.end();
+                        System.out.println(stopWatch.getElapsedTime() / 1000.0);
+                    } else if (command.equals("stop")) {
+                        break;
+                    }
+                } while (true);
+                stopWatch.end();
+                System.out.println(stopWatch.getElapsedTime() / 1000.0 + " seconds");
+                break;
+            case 'N':
+            case 'n':
+                System.exit(0);
+            default:
+                System.out.println("Invalid choice.");
+        }
     }
 }
