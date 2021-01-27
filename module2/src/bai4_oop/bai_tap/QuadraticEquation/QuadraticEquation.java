@@ -3,38 +3,15 @@ package bai4_oop.bai_tap.QuadraticEquation;
 import java.util.Scanner;
 
 public class QuadraticEquation {
-    private double a, b, c;
+    private double a;
+    private double b;
+    private double c;
 
     private QuadraticEquation(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
-//
-//    public double getA() {
-//        return a;
-//    }
-//
-//    public void setA(double a) {
-//        this.a = a;
-//    }
-//
-//    public double getB() {
-//        return b;
-//    }
-//
-//    public void setB(double b) {
-//        this.b = b;
-//    }
-//
-//    public double getC() {
-//        return c;
-//    }
-//
-//    public void setC(double c) {
-//        this.c = c;
-//    }
-//
     public double getDiscriminant(){
         return (b*b)-(4*a*c);
     }
@@ -50,6 +27,7 @@ public class QuadraticEquation {
         Scanner scanner =new Scanner(System.in);
         System.out.println("Nhap a: ");
         double a=scanner.nextDouble();
+        
         System.out.println("Nhap b: ");
         double b= scanner.nextDouble();
         System.out.println("Nhap c: ");
@@ -67,6 +45,5 @@ public class QuadraticEquation {
         }else{
             System.out.println("Vo nghiem");
         }
-
     }
 }
