@@ -12,21 +12,18 @@ public class Circle {
     public String getColor() {
         return color;
     }
-
     public void setColor(String color) {
-        this.color = color;
+        this.color = color;//giá trị tham số mới
     }
-
     public double getRadius() {
         return radius;
     }
-
     public void setRadius(double radius) {
         this.radius = radius;
     }
 
-    public double Area(){
-        return Math.PI*radius*radius;
+    public double Area() {
+        return Math.PI * radius * radius;
     }
 
     @Override
