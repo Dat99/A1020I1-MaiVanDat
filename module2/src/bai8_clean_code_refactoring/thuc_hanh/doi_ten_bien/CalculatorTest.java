@@ -1,4 +1,4 @@
-package clean_code_refactoring.thuc_hanh.doi_ten_bien;
+package bai8_clean_code_refactoring.thuc_hanh.doi_ten_bien;
 
 public class CalculatorTest {
     public static final char ADDITION = '+';
@@ -9,7 +9,7 @@ public class CalculatorTest {
     public static int calculate(int firstOperand, int secondOperand, char operator) {
         switch (operator) {
             case ADDITION:
-                return firstOperand + se    condOperand;
+                return firstOperand + secondOperand;
             case SUBTRACTION:
                 return firstOperand - secondOperand;
             case MULTIPLICATION:
@@ -22,4 +22,5 @@ public class CalculatorTest {
             default:
                 throw new RuntimeException("Unsupported operation");
         }
+    }
 }

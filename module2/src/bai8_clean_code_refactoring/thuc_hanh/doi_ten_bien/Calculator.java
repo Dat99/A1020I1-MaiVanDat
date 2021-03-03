@@ -1,4 +1,4 @@
-package clean_code_refactoring.thuc_hanh.doi_ten_bien;
+package bai8_clean_code_refactoring.thuc_hanh.doi_ten_bien;
 
 public class Calculator {
     public static int calculate(int firstOperand , int secondOperand , char operator) {

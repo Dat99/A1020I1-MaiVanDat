@@ -2,7 +2,7 @@ package bai2_java_loop.thuc_hanh.ung_dung_tinh_tien_lai_cho_vay;
 
 import java.util.Scanner;
 
-public class Money {
+public class    Money {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
 

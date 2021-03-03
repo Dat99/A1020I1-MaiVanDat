@@ -1,4 +1,4 @@
-package clean_code_refactoring.thuc_hanh.tach_bien;
+package bai8_clean_code_refactoring.thuc_hanh.tach_bien;
 
 public class FizzBuzz {
     public static String fizzBuzz(int number){

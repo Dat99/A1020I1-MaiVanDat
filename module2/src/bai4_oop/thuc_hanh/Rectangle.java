@@ -8,7 +8,8 @@ public class Rectangle {
         this.height = height;
     }
 
-    public double getArea() { // phương thức tính diện tích
+    public double getArea()
+    { // phương thức tính diện tích
         return this.width * this.height;
     }
 
