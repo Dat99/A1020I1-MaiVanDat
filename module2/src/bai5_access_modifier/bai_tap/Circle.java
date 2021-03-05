@@ -1,6 +1,8 @@
 package bai5_access_modifier.bai_tap;
 
- public   class Circle {
+import bai5_access_modifier.Resizeable;
+
+public  class Circle  {
     private double radius =1.0;
     private String color ="red";
 
@@ -25,6 +27,9 @@ package bai5_access_modifier.bai_tap;
 
     public void setColor(String color) {
         this.color = color;
+    }
+    public double area(){
+        return Math.PI*(this.radius)*(this.radius);
     }
 
     @Override

@@ -8,10 +8,12 @@ public class KiemTraDauNgoacTrongBieuThuc {
         Scanner input = new Scanner(System.in);
         System.out.println("Nhap bieu thuc:");
         String expression = input.nextLine();
+
         Stack<String> bStack = new Stack<>();
         Stack<String> left = new Stack<>();
         Boolean check = true;
-        String bracketBefore="";
+
+        String bracketBefore=" ";
         for (int i = 0; i < expression.length(); i++) {
             String bChar = expression.substring(i, (i + 1));
             if (bChar.equals("(")) {

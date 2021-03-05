@@ -2,29 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51c99d98-5ee9-43cd-86c0-e951933be911" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/Models/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/Models/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/Models/Services.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FuramaResort/src/Models/Villa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai6_ke_thua/bai_tap/Point2DAndPoint3D/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai6_ke_thua/thuc_hanh/Shape/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai6_ke_thua/thuc_hanh/Shape/StudentBK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai7_abstract_class_interface/thuc_hanh/edible/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai7_abstract_class_interface/thuc_hanh/edible/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai7_abstract_class_interface/thuc_hanh/edible/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clean_code_refactoring/bai_tap/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clean_code_refactoring/thuc_hanh/doi_ten_bien/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clean_code_refactoring/thuc_hanh/doi_ten_bien/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clean_code_refactoring/thuc_hanh/tach_phuong_thuc/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/META-INF/Module2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai6_ke_thua/bai_tap/CircleAndCylinder/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai6_ke_thua/bai_tap/CircleAndCylinder/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai6_ke_thua/bai_tap/CircleAndCylinder/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai6_ke_thua/bai_tap/CircleAndCylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai10_dsa_list/bai_tap/linked_list/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai10_dsa_list/thuc_hanh/linked_list_simple/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai10_dsa_list/thuc_hanh/linked_list_simple/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai10_dsa_list/thuc_hanh/list_simple/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/Models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/Models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/Models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/Models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/Models/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/Models/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FuramaResort/src/Models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FuramaResort/src/Models/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai4_oop/thuc_hanh/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai4_oop/thuc_hanh/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai4_oop/thuc_hanh/mainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai4_oop/thuc_hanh/mainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai4_oop/thuc_hanh/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai4_oop/thuc_hanh/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai4_oop/thuc_hanh/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai4_oop/thuc_hanh/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clean_code_refactoring/bai_tap/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai8_clean_code_refactoring/bai_tap/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clean_code_refactoring/thuc_hanh/doi_ten_bien/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai8_clean_code_refactoring/thuc_hanh/doi_ten_bien/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clean_code_refactoring/thuc_hanh/doi_ten_bien/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai8_clean_code_refactoring/thuc_hanh/doi_ten_bien/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai8_clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clean_code_refactoring/thuc_hanh/tach_phuong_thuc/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai8_clean_code_refactoring/thuc_hanh/tach_phuong_thuc/Cylinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,13 +59,26 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.MainCircle">
+  <component name="RunManager" selected="Application.TestMyLinkedList">
     <configuration name="MainCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai6_ke_thua.bai_tap.CircleAndCylinder.MainCircle" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bai6_ke_thua.bai_tap.CircleAndCylinder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai10_dsa_list.thuc_hanh.list_simple.MyList" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai10_dsa_list.thuc_hanh.list_simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,8 +112,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai10_dsa_list.thuc_hanh.linked_list_simple.TestMyLinkedList" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai10_dsa_list.thuc_hanh.linked_list_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMyLinkedList" />
+        <item itemvalue="Application.MyList" />
         <item itemvalue="Application.MainCircle" />
         <item itemvalue="Application.StudentBK" />
         <item itemvalue="Application.Student" />
@@ -128,7 +151,9 @@
       <workItem from="1611893975664" duration="380000" />
       <workItem from="1612056659677" duration="6175000" />
       <workItem from="1612312540119" duration="2216000" />
-      <workItem from="1612349928476" duration="4217000" />
+      <workItem from="1612349928476" duration="4814000" />
+      <workItem from="1612788221068" duration="874000" />
+      <workItem from="1613987628824" duration="6764000" />
     </task>
     <servers />
   </component>
@@ -140,26 +165,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="671" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612057334542" />
-    <state x="634" y="134" key="FileChooserDialogImpl" timestamp="1611746633163">
+    <state x="634" y="134" key="FileChooserDialogImpl" timestamp="1613997263259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="634" y="134" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611746633163" />
-    <state width="1853" height="153" key="GridCell.Tab.0.bottom" timestamp="1612336087060">
+    <state x="634" y="134" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613997263259" />
+    <state width="1856" height="144" key="GridCell.Tab.0.bottom" timestamp="1613997264247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1853" height="153" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612336087060" />
-    <state width="1853" height="153" key="GridCell.Tab.0.center" timestamp="1612336087060">
+    <state width="1856" height="144" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613997264247" />
+    <state width="1856" height="144" key="GridCell.Tab.0.center" timestamp="1613997264247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1853" height="153" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612336087060" />
-    <state width="1853" height="153" key="GridCell.Tab.0.left" timestamp="1612336087060">
+    <state width="1856" height="144" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613997264247" />
+    <state width="1856" height="144" key="GridCell.Tab.0.left" timestamp="1613997264247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1853" height="153" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612336087060" />
-    <state width="1853" height="153" key="GridCell.Tab.0.right" timestamp="1612336087060">
+    <state width="1856" height="144" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613997264247" />
+    <state width="1856" height="144" key="GridCell.Tab.0.right" timestamp="1613997264247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1853" height="153" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612336087060" />
+    <state width="1856" height="144" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613997264247" />
     <state x="527" y="366" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1612354624272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,5 +193,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="47" y="0" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611746644026" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/bai10_dsa_list/thuc_hanh/list_simple/MyList.java</url>
+          <line>8</line>
+          <properties field="elements" class="bai10_dsa_list.thuc_hanh.list_simple.MyList" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
