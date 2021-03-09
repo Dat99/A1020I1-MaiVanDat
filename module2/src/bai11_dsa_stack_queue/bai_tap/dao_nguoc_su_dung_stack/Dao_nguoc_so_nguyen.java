@@ -25,7 +25,9 @@ public class Dao_nguoc_so_nguyen {
             System.out.print("Enter element " + (i + 1) + ": ");
             array[i] = scanner.nextInt();
             i++;
+
         }
+
 
 
 

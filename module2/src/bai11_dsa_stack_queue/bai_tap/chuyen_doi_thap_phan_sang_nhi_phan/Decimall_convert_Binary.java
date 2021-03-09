@@ -4,14 +4,14 @@ import java.util.Scanner;
 import java.util.Stack;
 
 class DecimallConvertBinary {
-//    public static void main(String[] args) {
-//        Stack<Integer> integerStack = new Stack<Integer>();
-//
-//        Scanner sc = new Scanner(System.in);
-//        int input=sc.nextInt();
-//        for(int i =0; i<= ){
-//
-//        }
-//
-//    }
+    public static void main(String[] args) {
+        Stack<Integer> integerStack = new Stack<Integer>();
+
+        Scanner sc = new Scanner(System.in);
+        int input=sc.nextInt();
+        for(int i =0; i<= ){
+
+        }
+
+    }
 }
