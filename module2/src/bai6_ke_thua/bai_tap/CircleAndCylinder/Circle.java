@@ -8,6 +8,15 @@ public class Circle {
         this.color = color;
         this.radius = radius;
     }
+    public Circle(){
+
+    }
+
+    public Circle(double radius) {
+    }
+
+    public Circle(double radius, String color, boolean filled) {
+    }
 
     public String getColor() {
         return color;

@@ -1,44 +1,48 @@
 package bai12_java_collection_framework.bai_tap.luyen_tap_su_dung_arrayList_linkedList;
 
-public class Product  implements Comparable<Product> {
-    private String name;
-    private int id;
-    private int price;
-    public Product(String name, int id, int price) {
-        this.name = name;
-        this.id = id;
-        this.price = price;
-    }
+public class  Product {
+    private String idProduct;
+    private String nameProduct;
+    private int priceProduct;
+
     public Product() {
     }
-    public String getName() {
-        return this.name;
+
+    public Product(String idProduct, String nameProduct, int priceProduct) {
+        this.idProduct = idProduct;
+        this.nameProduct = nameProduct;
+        this.priceProduct = priceProduct;
     }
-    public void setName(String name) {
-        this.name = name;
+
+    public String getIdProduct() {
+        return idProduct;
     }
-    public int getId() {
-        return this.id;
+
+    public void setIdProduct(String idProduct) {
+        this.idProduct = idProduct;
     }
-    public void setId(int id) {
-        this.id = id;
+
+    public String getNameProduct() {
+        return nameProduct;
     }
-    public int getPrice() {
-        return price;
+
+    public void setNameProduct(String nameProduct) {
+        this.nameProduct = nameProduct;
     }
-    public void setPrice(int price) {
-        this.price = price;
+
+    public double getPriceProduct() {
+        return priceProduct;
+    }
+
+    public void setPriceProduct(int priceProduct) {
+        this.priceProduct = priceProduct;
     }
     @Override
     public String toString() {
-        return "Product name: " + this.name +
-                ", ID: " + this.id +
-                ", Price: " + this.price;
-    }
-    @Override
-    public int compareTo(Product p) {
-        if (getId() > p.getId()) return 1;
-        else if (getId() < p.getId()) return -1;
-        else return 0;
+        return "Product{" +
+                "idProduct='" + idProduct + '\'' +
+                ", nameProduct='" + nameProduct + '\'' +
+                ", priceProduct=" + priceProduct +
+                '}';
     }
 }

@@ -1,7 +1,4 @@
-package bai13_thuat_toan_tim_kiem.bai_tap.tim_chuoi_lien_tiep_co_do_dai_lon_nhat;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import org.w3c.dom.ls.LSOutput;
+package bai13_thuat_toan_tim_kiem.bai_tap.chuoi_lien_tiep;
 
 import java.util.LinkedList;
 import java.util.Scanner;
