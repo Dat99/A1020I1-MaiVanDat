@@ -5,9 +5,37 @@ public class Student {
     private int id;
     private int age;
 
-    public Student(String name, int id, int age) {
+    public Student(int id, String name, int age) {
         this.name = name;
         this.id = id;
+        this.age = age;
+    }
+
+    public Student() {
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
         this.age = age;
     }
 
@@ -27,7 +55,7 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student student=new Student("Dat",1,22);
+        Student student=new Student(1,"Dat",22);
         student.getInfor();
 
     }

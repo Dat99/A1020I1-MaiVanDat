@@ -3,8 +3,8 @@ package bai6_ke_thua.thuc_hanh.Shape;
 public class StudentBK extends Student {
     private String doAn;
 
-    public StudentBK(String name, int id, int age, String doAn) {
-        super(name, id, age);
+    public StudentBK(int id, String name, int age, String doAn) {
+        super(id, name, age);
         this.doAn = doAn;
     }
 
@@ -13,7 +13,7 @@ public class StudentBK extends Student {
         System.out.println("Do an: "+this.doAn);
     }
     public static void main(String[] args) {
-        StudentBK studentBK =new StudentBK("Thuan", 1, 24,"Chuyen nganh");
+        StudentBK studentBK =new StudentBK(2, "Thuan", 24,"Chuyen nganh");
         studentBK.getInfor();
     }
 }
