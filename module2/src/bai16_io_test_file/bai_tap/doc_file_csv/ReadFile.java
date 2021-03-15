@@ -16,8 +16,8 @@ public class ReadFile {
         while ((lineRead = bufferedReader.readLine()) != null) {
             countryRead = new Country();
             lineReadArray = lineRead.split(",");// cat chuoi
-            countryRead.setStartIp(Double.parseDouble(lineReadArray[0]));
-            countryRead.setEndIp(Double.parseDouble(lineReadArray[1]));
+            countryRead.setStartIp(lineReadArray[0]);
+            countryRead.setEndIp(lineReadArray[1]);
             countryRead.setId(lineReadArray[2]);
             countryRead.setName(lineReadArray[3]);
             System.out.println(countryRead);

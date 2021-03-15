@@ -3,10 +3,11 @@ package bai16_io_test_file.bai_tap.doc_file_csv;
 public class Country {
 private String id;
 private String name;
-private double startIp;
-private double endIp;
+private String startIp;
+private String endIp;
 
-    public Country(String id, String name, double startIp, double endIp) {
+
+    public Country(String id, String name, String startIp, String endIp) {
         this.id = id;
         this.name = name;
         this.startIp = startIp;
@@ -33,19 +34,19 @@ private double endIp;
         this.name = name;
     }
 
-    public double getStartIp() {
+    public String getStartIp() {
         return startIp;
     }
 
-    public void setStartIp(double startIp) {
+    public void setStartIp(String startIp) {
         this.startIp = startIp;
     }
 
-    public double getEndIp() {
+    public String getEndIp() {
         return endIp;
     }
 
-    public void setEndIp(double endIp) {
+    public void setEndIp(String endIp) {
         this.endIp = endIp;
     }
 
@@ -67,7 +68,7 @@ public void getInfor(){
     }
 
     public static void main(String[] args) {
-        Country country = new Country("CN","China",1.0,3.5);
+        Country country = new Country("CN","China","1.0.0.0","1.0.0.255");
         country.getInfor();
     }
 }
