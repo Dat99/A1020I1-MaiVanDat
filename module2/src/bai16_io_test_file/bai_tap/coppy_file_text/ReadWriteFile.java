@@ -12,6 +12,8 @@ public class ReadWriteFile {
         while ((line = bufferedReader.readLine()) != null) {
             System.out.println(line);
         }
+
+
         BufferedWriter bufferedWriter
                 = new BufferedWriter(new FileWriter(new File("D:/lapTrinh/codegym/A1020I1_MaiVanDat" +
                 "/A1020I1_MaiVanDat/A1020I1-MaiVanDat/module2/src/bai16_io_test_file" +
