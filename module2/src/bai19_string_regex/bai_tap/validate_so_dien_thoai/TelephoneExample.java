@@ -8,7 +8,7 @@ public class TelephoneExample {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         boolean check=true;
-        String REGEX_SDT="[0-9]{2}-[0][0-9]{9}";
+        String REGEX_SDT="([84])-[0][0-9]{9}";
         while (check){
             System.out.println("Nhập số điện thoại: ");
             String input=scanner.nextLine();
