@@ -1,4 +1,12 @@
 package libs;
 
-public class EmailException {
+public class EmailException extends Exception {
+    public EmailException() {
+        super("Invalid!!! Email is abc@abc.abc!!! ");
+    }
+
+    public EmailException(String str) {
+        super(str);
+
+    }
 }

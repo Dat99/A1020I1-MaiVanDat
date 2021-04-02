@@ -59,7 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.TestMyLinkedList">
+  <component name="RunManager" selected="Application.ReadFile">
     <configuration name="MainCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai6_ke_thua.bai_tap.CircleAndCylinder.MainCircle" />
       <module name="module2" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai6_ke_thua.thuc_hanh.Shape.Student" />
+    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai16_io_test_file.bai_tap.doc_file_csv.ReadFile" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai6_ke_thua.thuc_hanh.Shape.*" />
+          <option name="PATTERN" value="bai16_io_test_file.bai_tap.doc_file_csv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.TestMyLinkedList" />
         <item itemvalue="Application.MyList" />
         <item itemvalue="Application.MainCircle" />
         <item itemvalue="Application.StudentBK" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>

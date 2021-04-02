@@ -10,7 +10,7 @@ import java.util.*;
 
 import static Manager.BookingManager.FILE_NAME_BOOKING;
 
-public class RoomMannager {
+public class RoomManager {
 
     private static ArrayList<Room> listRoom = new ArrayList<>();
     public static final String FILE_NAME_ROOM = "src\\data\\Room.csv";
@@ -63,6 +63,8 @@ public class RoomMannager {
         }
         room.setMaxNumberOfPeople(maxNumberOfPeopleRoomTemp);
 
+
+        // Kiểu thuê
         System.out.println("Kiểu thuê: ");
         String typeRentRoomTemp = input.nextLine();
         while(!FuncValidationService.checkTypeRent(typeRentRoomTemp)){
@@ -79,16 +81,24 @@ public class RoomMannager {
             freeServicesTemp = input.nextLine();
         }
         room.setFreeServices(freeServicesTemp);
+
+
         listRoom.add(room);
         String line;
-        for (Room room1 : listRoom) {
-            line = room1.getId() + COMMA + room1.getNameServices() + COMMA + room1.getArea()
-                    + COMMA + room1.getRentPrice() + COMMA + room1.getMaxNumberOfPeople()
-                    + COMMA + room1.getTypeRent() + COMMA + room1.getFreeServices();
-            FileUtils.writeFile(FILE_NAME_ROOM, line);
-            break;
+       // for (Room room1 : listRoom) {
+            line = room.getId() + COMMA + room.getNameServices() + COMMA + room.getArea()
+                    + COMMA + room.getRentPrice() + COMMA + room.getMaxNumberOfPeople()
+                    + COMMA + room.getTypeRent() + COMMA + room.getFreeServices();
+            FileUtils.writeFile(FILE_NAME_ROOM, line);// viết dữ liệu vào file src//data//Room.csv
+            //break;
         }
-    }
+    //}
+
+
+
+
+
+
 
     // ---------------- Show All Room ----------------- //
 

@@ -3,16 +3,18 @@ package models;
 import javax.xml.bind.annotation.XmlAnyAttribute;
 
 public class Villa extends Services {
-    private String standardRoom;// tiêu chuẩn phòng
-    private String facilitiesOther;// mô tả tiện nghi khác
-    private double areaPool;// diện tích hồ bơi
-    private int numberOfFloors;// số tầng
 
-    public Villa(String servicesName, double area, double money, int maximumPeople, String typeServices,
-                 String standardRoom, String facilitiesOther, double areaPool, int numberOfFloors) {
-        super(servicesName, area, money, maximumPeople, typeServices);
+    private String standardRoom; // tiêu chuẩn phòng
+    private String describeConvenient;// tiện nghi khác
+    private String areaPool; // diện tích hồ bơi
+    private String numberOfFloors;// số tầng
+
+    public Villa() {
+    }
+
+    public Villa(String standardRoom, String describeConvenient, String areaPool, String numberOfFloors) {
         this.standardRoom = standardRoom;
-        this.facilitiesOther = facilitiesOther;
+        this.describeConvenient = describeConvenient;
         this.areaPool = areaPool;
         this.numberOfFloors = numberOfFloors;
     }
@@ -25,48 +27,40 @@ public class Villa extends Services {
         this.standardRoom = standardRoom;
     }
 
-    public String getFacilitiesOther() {
-        return facilitiesOther;
+    public String getDescribeConvenient() {
+        return describeConvenient;
     }
 
-    public void setFacilitiesOther(String facilitiesOther) {
-        this.facilitiesOther = facilitiesOther;
+    public void setDescribeConvenient(String describeConvenient) {
+        this.describeConvenient = describeConvenient;
     }
 
-    public double getAreaPool() {
+    public String getAreaPool() {
         return areaPool;
     }
 
-    public void setAreaPool(double areaPool) {
+    public void setAreaPool(String areaPool) {
         this.areaPool = areaPool;
     }
 
-    public int getNumberOfFloors() {
+    public String getNumberOfFloors() {
         return numberOfFloors;
     }
 
-    public void setNumberOfFloors(int numberOfFloors) {
+    public void setNumberOfFloors(String numberOfFloors) {
         this.numberOfFloors = numberOfFloors;
     }
 
     @Override
-    public String toString() {
-        return "Villa{"+
-                "standardRoom='" + standardRoom + '\'' +
-                ", facilitiesOther='" + facilitiesOther + '\'' +
-                ", areaPool=" + areaPool +
-                ", numberOfFloors=" + numberOfFloors +
-                '}';
-    }
-
-    @Override
     public void showInfor() {
-    }
 
-    public static void main(String[] args) {
-        Services Villa = new Villa("Villa",23,120,12,"vip",
-                "2 nguoi","karaoke",50,2);
-        System.out.println(Villa.toString());
+        System.out.println(
+                super.toString()
+                        + "Standard Room: " + this.standardRoom + "\n"
+                        + "Describe Convenient: " + this.describeConvenient + "\n"
+                        + "Area Pool: " + this.areaPool + "\n"
+                        + "Number Of Floor: " + this.numberOfFloors + "\n"
+                        + "----------------------------");
     }
 }
 

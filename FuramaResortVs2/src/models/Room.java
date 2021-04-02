@@ -1,32 +1,29 @@
 package models;
 
 public class Room extends Services {
-    private String servicesFree;
+    private String freeServices; // dịch vụ miễn phí đi kèm
 
-    public String getServicesFree() {
-        return servicesFree;
+    public Room() {
     }
 
-    public void setServicesFree(String servicesFree) {
-        this.servicesFree = servicesFree;
+    public Room(String id, String servicesName, String area, String rentPrice, String maxNumberOfPeople,
+                String typeRent, String freeServices) {
+        super(id, servicesName, area, rentPrice, maxNumberOfPeople, typeRent);
+        this.freeServices = freeServices;
     }
 
-    public Room(String servicesName, double area, double money, int maximumPeople, String typeServices,
-                String servicesFree) {
-        super(servicesName, area, money, maximumPeople, typeServices);
-        this.servicesFree = servicesFree;
-
-
+    public String getFreeServices() {
+        return freeServices;
     }
+
+    public void setFreeServices(String freeServices) {
+        this.freeServices = freeServices;
+    }
+
 
     @Override
     public void showInfor() {
+        System.out.println( super.toString()+ "freeServices= " +freeServices);
 
-    }
-
-    public static void main(String[] args) {
-        Services room =new Room("Room",23,3,23,"vip",
-                "karaoke");
-        System.out.println(room.getServicesName());
     }
 }

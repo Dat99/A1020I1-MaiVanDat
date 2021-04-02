@@ -1,4 +1,11 @@
 package libs;
 
-public class GenderException {
+public class GenderException extends Exception {
+    public GenderException(){
+        super("Không đúng định dạng Male hoặc Female");
+    }
+    public GenderException(String msg){
+        super(msg);
+    }
+
 }

@@ -1,15 +1,16 @@
 package models;
 
 public class House extends Services{
-    private String standardRoom;// tiêu chuẩn phòng
-    private String facilitiesOther;// mô tả tiện nghi khác
-    private  int numberOfFloors;// số tầng
+    private String standardRoom; // tiêu chuẩn phòng
+    private String describeConvenient; // tiện nghi khác
+    private String numberOfFloors; // số tầng
 
-    public House(String servicesName, double area, double money, int maximumPeople, String typeServices,
-                 String standardRoom, String facilitiesOther, int numberOfFloors) {
-        super(servicesName, area, money, maximumPeople, typeServices);
+    public House() {
+    }
+
+    public House(String standardRoom, String describeConvenient, String numberOfFloors) {
         this.standardRoom = standardRoom;
-        this.facilitiesOther = facilitiesOther;
+        this.describeConvenient = describeConvenient;
         this.numberOfFloors = numberOfFloors;
     }
 
@@ -21,42 +22,30 @@ public class House extends Services{
         this.standardRoom = standardRoom;
     }
 
-    public String getFacilitiesOther() {
-        return facilitiesOther;
+    public String getDescribeConvenient() {
+        return describeConvenient;
     }
 
-    public void setFacilitiesOther(String facilitiesOther) {
-        this.facilitiesOther = facilitiesOther;
+    public void setDescribeConvenient(String describeConvenient) {
+        this.describeConvenient = describeConvenient;
     }
 
-    public int getNumberOfFloors() {
+    public String getNumberOfFloors() {
         return numberOfFloors;
     }
 
-    public void setNumberOfFloors(int numberOfFloors) {
+    public void setNumberOfFloors(String numberOfFloors) {
         this.numberOfFloors = numberOfFloors;
     }
 
     @Override
-    public String toString() {
-        return super.toString()+"House{" +
-                "standardRoom='" + standardRoom + '\'' +
-                ", facilitiesOther='" + facilitiesOther + '\'' +
-                ", numberOfFloors=" + numberOfFloors +
-                '}';
-    }
-
-    @Override
     public void showInfor() {
-
+        System.out.println(
+                super.toString()
+                        + "Standard Room: " + this.standardRoom + "\n"
+                        + "Describe Convenient: " + this.describeConvenient + "\n"
+                        + "Number Of Floor: " + this.numberOfFloors + "\n"
+                        + "----------------------------");
     }
 
-    public static void main(String[] args) {
-        Services services = new House("house",12,100,23,
-                "room"," 3 người","massage",7);
-
-
-        House house = (House) services; //ép kiểu tường minh
-        System.out.println(house.toString());
-    }
 }

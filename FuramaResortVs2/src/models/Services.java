@@ -1,69 +1,83 @@
 package models;
 
 public abstract class Services {
-    private String servicesName; // tên dịch vụ
-    private double area;// diện tích sử dụng
-    private double money;// chí phí thuê
-    private int maximumPeople; // số lượng người tối đa
-    private String typeServices; // kiểu thuê
+    private String id;
+    private String nameServices; // tên dịch vụ
+    private String area;// diện tích sử dụng
+    private String rentPrice;// chí phí thuê
+    private String maxNumberOfPeople; // số lượng người tối đa
+    private String typeRent; // kiểu thuê
 
-    public Services(String servicesName, double area, double money, int maximumPeople, String typeServices) {
-        this.servicesName = servicesName;
+
+    public Services() {
+    }
+
+    public Services(String id, String nameServices, String area, String rentPrice, String maxNumberOfPeople, String typeRent) {
+        this.id = id;
+        this.nameServices = nameServices;
         this.area = area;
-        this.money = money;
-        this.maximumPeople = maximumPeople;
-        this.typeServices = typeServices;
+        this.rentPrice = rentPrice;
+        this.maxNumberOfPeople = maxNumberOfPeople;
+        this.typeRent = typeRent;
     }
 
-    public String getServicesName() {
-        return servicesName;
+    public String getId() {
+        return id;
     }
 
-    public void setServicesName(String servicesName) {
-        this.servicesName = servicesName;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public double getArea() {
+    public String getNameServices() {
+        return nameServices;
+    }
+
+    public void setNameServices(String nameServices) {
+        this.nameServices = nameServices;
+    }
+
+    public String getArea() {
         return area;
     }
 
-    public void setArea(double area) {
+    public void setArea(String area) {
         this.area = area;
     }
 
-    public double getMoney() {
-        return money;
+    public String getRentPrice() {
+        return rentPrice;
     }
 
-    public void setMoney(double money) {
-        this.money = money;
+    public void setRentPrice(String rentPrice) {
+        this.rentPrice = rentPrice;
     }
 
-    public int getMaximumPeople() {
-        return maximumPeople;
+    public String getMaxNumberOfPeople() {
+        return maxNumberOfPeople;
     }
 
-    public void setMaximumPeople(int maximumPeople) {
-        this.maximumPeople = maximumPeople;
+    public void setMaxNumberOfPeople(String maxNumberOfPeople) {
+        this.maxNumberOfPeople = maxNumberOfPeople;
     }
 
-    public String getTypeServices() {
-        return typeServices;
+    public String getTypeRent() {
+        return typeRent;
     }
 
-    public void setTypeServices(String typeServices) {
-        this.typeServices = typeServices;
+    public void setTypeRent(String typeRent) {
+        this.typeRent = typeRent;
     }
 
     @Override
     public String toString() {
-        return "Services{" +
-                "servicesName='" + servicesName + '\'' +
-                ", area=" + area +
-                ", money=" + money +
-                ", maximumPeople=" + maximumPeople +
-                ", typeServices='" + typeServices + '\'' +
-                '}';
+        return
+                "id= " + id +"\n" +
+                ", servicesName= " + nameServices + "\n" +
+                ", area= " + area + "\n"+
+                ", rentPrice=" + rentPrice + "\n" +
+                ", maxNumberOfPeople= " + maxNumberOfPeople + "\n" +
+                ", typeRent= " + typeRent;
     }
 
     public abstract void showInfor();
