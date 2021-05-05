@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/test_jsp_servlet.iml" filepath="$PROJECT_DIR$/test_jsp_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai10_jstl_sv2.iml" filepath="$PROJECT_DIR$/bai10_jstl_sv2.iml" />
     </modules>
   </component>
 </project>
