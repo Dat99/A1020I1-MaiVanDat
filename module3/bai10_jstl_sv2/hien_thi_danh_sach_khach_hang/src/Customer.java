@@ -9,6 +9,7 @@ public class Customer {
         this.dateOfBirth = dateOfBirth;
         this.address = address;
         this.image = image;
+
     }
 
     public String getName() {

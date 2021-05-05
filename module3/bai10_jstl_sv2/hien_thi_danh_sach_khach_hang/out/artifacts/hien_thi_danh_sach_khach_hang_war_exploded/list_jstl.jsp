@@ -27,11 +27,10 @@
             <td><c:out value="${customer.name}"/></td>
             <td><c:out value="${customer.dateOfBirth}"/></td>
             <td><c:out value="${customer.address}"/></td>
-            <td><img src="Images/dat.jpg" style="width: 50px; height: 50px"></td>
+            <td><img src="${customer.image}" style="width: 50px; height: 50px"></td>
         </tr>
 
     </c:forEach>
 </table>
-
 </body>
 </html>
