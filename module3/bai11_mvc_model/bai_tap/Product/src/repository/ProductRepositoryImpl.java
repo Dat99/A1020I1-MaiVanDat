@@ -14,10 +14,7 @@ public class ProductRepositoryImpl implements ProductRepository {
         productMap.put(1, new Product(1, "Iphone 6", 500, "Old", "Apple"));
         productMap.put(2, new Product(2, "Iphone 7", 600, "Old", "Apple"));
         productMap.put(3, new Product(3, "Iphone 8", 700, "Old", "Apple"));
-        productMap.put(4, new Product(4, "Iphone X", 900, "Like New", "Apple"));
-        productMap.put(5, new Product(5, "Iphone 11", 1200, "Like New", "Apple"));
-        productMap.put(6, new Product(6, "Iphone 12", 1500, "New", "Apple"));
-        productMap.put(7, new Product(7, "Iphone 5", 450, "Old", "Apple"));
+
     }
 
     @Override
