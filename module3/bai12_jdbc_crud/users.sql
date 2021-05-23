@@ -1,5 +1,5 @@
-create database user_managerment;
-use user_managerment;
+create database user_management;
+use user_management;
 
 create table users(
     id int not null primary key auto_increment,
