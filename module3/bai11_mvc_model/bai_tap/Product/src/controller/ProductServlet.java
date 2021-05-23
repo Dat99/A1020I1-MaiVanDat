@@ -63,7 +63,7 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    // ----------------------------- View Home Product ----------------------------- //
+
 
     private void productHome(HttpServletRequest request, HttpServletResponse response) {
         request.setAttribute("products", this.productService.findAll());
@@ -74,7 +74,7 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    // ----------------------------- Create & Save Product ----------------------------- //
+
     private void createProduct(HttpServletRequest request, HttpServletResponse response) {
         try {
             request.getRequestDispatcher("product/create.jsp").forward(request, response);
@@ -97,7 +97,7 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    // ----------------------------- Edit & Update Product ----------------------------- //
+
 
     private void editProduct(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
@@ -132,7 +132,6 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    // ----------------------------- Delete Product ----------------------------- //
 
     private void deleteProduct(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
@@ -144,7 +143,6 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    // ----------------------------- View Info Product ----------------------------- //
 
     private void infoProduct(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
@@ -157,7 +155,7 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    // ----------------------------- Find By Name Product ----------------------------- //
+
 
     private void findProduct(HttpServletRequest request, HttpServletResponse response) {
         String keyword = request.getParameter("keyword");
