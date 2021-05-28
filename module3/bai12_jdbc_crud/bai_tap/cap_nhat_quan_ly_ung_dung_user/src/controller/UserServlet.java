@@ -161,7 +161,7 @@ private void findCountryUser(HttpServletRequest request, HttpServletResponse res
 }
 //---------- sort name user--------------//
 
-   /* private void sortUser(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+   /* private void sortUse  r(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<User> userList = this.userService.findAll();
         Collections.sort(userList);
         request.setAttribute("users",userList);

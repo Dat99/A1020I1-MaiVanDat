@@ -21,7 +21,7 @@ public class UserRepositoryImpl implements UserRepository {
             Statement statement = this.baseRepository.getConnection().createStatement();
             ResultSet resultSet = statement.executeQuery(
                     "select id,`name`, email, country\n" +
-                            "from users;"
+                            "from users order by `name`;"
             );
             User user = null;
             while (resultSet.next()) {
@@ -30,7 +30,6 @@ public class UserRepositoryImpl implements UserRepository {
                 user.setName(resultSet.getString("name"));
                 user.setEmail(resultSet.getString("email"));
                 user.setCountry(resultSet.getString("country"));
-
                 userList.add(user);
             }
         } catch (SQLException e) {

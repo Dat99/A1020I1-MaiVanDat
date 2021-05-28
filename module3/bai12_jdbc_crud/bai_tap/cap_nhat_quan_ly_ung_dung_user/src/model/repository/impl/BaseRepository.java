@@ -6,13 +6,13 @@ import java.sql.SQLException;
 
 public class BaseRepository {
     private Connection connection;
-    private String jdbcURL = "jdbc:mysql://localhost:3306/user_management";
+    private String jdbcURL = "jdbc:mysql://localhost:3306/user_managerment";
     private String jdbcUsername = "root";
     private String jdbcPassword = "abc123";
 
     public BaseRepository() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver"); // dùng để chạy driver
             this.connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
