@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bai9_tong_quan_ung_dung_web.iml" filepath="$PROJECT_DIR$/.idea/bai9_tong_quan_ung_dung_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thuc_hanh/trang_web_dang_nhap_va_hien_thi_loi_chao/trang_web_dang_nhap_va_hien_thi_loi_chao.iml" filepath="$PROJECT_DIR$/thuc_hanh/trang_web_dang_nhap_va_hien_thi_loi_chao/trang_web_dang_nhap_va_hien_thi_loi_chao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thuc_hanh/trang_web_hien_thi_thoi_gian_he_thong/trang_web_hien_thi_thoi_gian_he_thong.iml" filepath="$PROJECT_DIR$/thuc_hanh/trang_web_hien_thi_thoi_gian_he_thong/trang_web_hien_thi_thoi_gian_he_thong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thuc_hanh/ung_dung_chuyen_doi_tien_te_servlet/ung_dung_chuyen_doi_tien_te_servlet.iml" filepath="$PROJECT_DIR$/thuc_hanh/ung_dung_chuyen_doi_tien_te_servlet/ung_dung_chuyen_doi_tien_te_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thuc_hanh/ung_dung_tu_dien_don_gian_servlet/ung_dung_tu_dien_don_gian_servlet.iml" filepath="$PROJECT_DIR$/thuc_hanh/ung_dung_tu_dien_don_gian_servlet/ung_dung_tu_dien_don_gian_servlet.iml" />
+    </modules>
+  </component>
+</project>
