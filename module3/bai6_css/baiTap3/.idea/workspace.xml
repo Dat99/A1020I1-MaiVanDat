@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f271ad6-a6e1-4ae9-af86-df91a505a0de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../bai10_jsp_jstl/thuc_hanh/ung_dung_chuyen_doi_tien_te/src/controller/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai10_jsp_jstl/thuc_hanh/ung_dung_chuyen_doi_tien_te/ung_dung_chuyen_doi_tien_te.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai10_jsp_jstl/thuc_hanh/ung_dung_chuyen_doi_tien_te/web/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai10_jsp_jstl/thuc_hanh/ung_dung_chuyen_doi_tien_te/web/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_facebook/mai_van_dat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/.idea/libraries/Java_EE_6_Java_EE_6__2_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/.idea/tao_trang_truyen_doc_ngan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/cinema.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/cuop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/key.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/theloai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tao_trang_truyen_doc_ngan/trang_truyen_doc_ngan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/.idea/baiTap2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/168014754_4051952858222264_1632285018159969356_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/175310108_4106075576143325_3667983962969606531_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/giao_dien_gian_luoc_facebook/mai_van_dat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_rwd/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_rwd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_rwd/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/out/artifacts/ung_dung_discount_caculator_war_exploded/WEB-INF/classes/controller/DiscountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/out/artifacts/ung_dung_discount_caculator_war_exploded/WEB-INF/classes/controller/DiscountServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/out/artifacts/ung_dung_discount_caculator_war_exploded/WEB-INF/discount/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/out/artifacts/ung_dung_discount_caculator_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/out/artifacts/ung_dung_discount_caculator_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/out/production/ung_dung_discount_caculator/controller/DiscountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/out/production/ung_dung_discount_caculator/controller/DiscountServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/src/controller/DiscountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/src/controller/DiscountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/ung_dung_discount_caculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/ung_dung_discount_caculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/web/WEB-INF/discount/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/web/discount/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai9_tong_quan_ung_dung_web/bai_tap/ung_dung_discount_caculator/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1wMFVYNhqiTYU56F4CjKkpiMNPX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bai8_boostrap" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f271ad6-a6e1-4ae9-af86-df91a505a0de" name="Default Changelist" comment="" />
+      <created>1628260574166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628260574166</updated>
+      <workItem from="1628260575602" duration="436000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1628261014957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1628261014957" />
+  </component>
+</project>

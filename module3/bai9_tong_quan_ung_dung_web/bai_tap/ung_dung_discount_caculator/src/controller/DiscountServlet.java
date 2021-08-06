@@ -17,9 +17,9 @@ public class DiscountServlet extends HttpServlet {
 
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
-        writer.println("<h1>Rate: " + percent+ "</h1>");
-        writer.println("<h1>USD: " + price+ "</h1>");
-        writer.println("<h1>VND: " + amount+ "</h1>");
+        writer.println("<h1>Rate: " + percent + "</h1>");
+        writer.println("<h1>USD: " + price + "</h1>");
+        writer.println("<h1>VND: " + amount + "</h1>");
         writer.println("</html>");
 
 //        request.getRequestDispatcher("WEB-INF/discount/index.jsp").forward(request, response);
@@ -28,6 +28,7 @@ public class DiscountServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //       response.sendRedirect("WEB-INF/discount/index.jsp");
-         request.getRequestDispatcher("WEB-INF/discount/index.jsp").forward(request, response);
+         request.getRequestDispatcher("discount/index.jsp").forward(request, response);
+
     }
 }
