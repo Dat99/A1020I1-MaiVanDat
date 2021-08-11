@@ -27,11 +27,11 @@
     String result = dic.get(search);
     if (result != null) {
         out.println("Word: " + search);
+        out.println("\n");
         out.println("Result: " + result);
     } else {
         out.println("Not found");
     }
-
 %>
 </body>
 </html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bai10_jsp_jstl.iml" filepath="$PROJECT_DIR$/.idea/bai10_jsp_jstl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai_tap/hien_thi_danh_sach_khach_hang/hien_thi_danh_sach_khach_hang.iml" filepath="$PROJECT_DIR$/bai_tap/hien_thi_danh_sach_khach_hang/hien_thi_danh_sach_khach_hang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai_tap/ung_dung_caculator/ung_dung_caculator.iml" filepath="$PROJECT_DIR$/bai_tap/ung_dung_caculator/ung_dung_caculator.iml" />
+    </modules>
+  </component>
+</project>

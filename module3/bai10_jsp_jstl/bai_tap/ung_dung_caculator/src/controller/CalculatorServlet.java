@@ -34,7 +34,7 @@ public class CalculatorServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setAttribute("Result","result");
+        request.setAttribute("Result","result");// đẩy result lên Result trong trang calulator.jsp
         request.getRequestDispatcher("/caculator/calculator.jsp").forward(request, response);
     }
 }

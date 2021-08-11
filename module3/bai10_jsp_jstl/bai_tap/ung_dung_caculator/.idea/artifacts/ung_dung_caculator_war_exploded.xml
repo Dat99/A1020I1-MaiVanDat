@@ -8,7 +8,8 @@
           <element id="module-output" name="ung_dung_caculator" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="lib" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../../JSTL/lib/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../../JSTL/lib/taglibs-standard-spec-1.2.5.jar" />
         </element>
       </element>
     </root>
