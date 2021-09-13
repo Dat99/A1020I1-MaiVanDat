@@ -59,7 +59,7 @@
             <td><a href="/product?actionProduct=delete&id=${product.getId()}">Delete</a></td>
         </tr>
     </c:forEach>
-</table>
+                                                                                                                                                        </table>
 <a href="/product?actionProduct=search">Back to search</a><br>
 <a href="/product" class="view">Back to product list</a>
 </body>

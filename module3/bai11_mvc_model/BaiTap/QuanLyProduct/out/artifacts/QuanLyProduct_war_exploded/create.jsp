@@ -18,9 +18,14 @@
     <label>Price product:</label><br>
     <input type="text" name="price"><br>
     <label>Producer product:</label><br>
-    <input type="text" name="producer"><br><br>
+    <input type="text" name="producer"><br>
     <label>Describer:</label><br>
-    <input type="text" name="describer"><br><br>
+    <input type="text" name="describer"><br>
+    <label>Quantity:</label><br>
+    <input type="text" name="quantity"><br>
+    <label>Color:</label><br>
+    <input type="text" name="color"><br>
+
     <input type="submit" value="Submit">
 </form>
 <label><c:out value="${msg}"/>

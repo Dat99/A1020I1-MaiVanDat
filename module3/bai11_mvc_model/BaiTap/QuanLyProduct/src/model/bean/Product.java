@@ -6,23 +6,29 @@ public class Product {
     private double price;
     private String describe;
     private String producer;
+    private int quantity;
+    private String color;
 
     public Product() {
     }
 
-    public Product(String name, double price, String describe, String producer) {
+    public Product(String name, double price, String describe, String producer,int quantity,String color) {
         this.name = name;
         this.price = price;
         this.describe = describe;
         this.producer = producer;
+        this.quantity =quantity;
+        this.color =color;
     }
 
-    public Product(int id, String name, double price, String describe, String producer) {
+    public Product(int id, String name, double price, String describe, String producer,int quantity,String color) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.describe = describe;
         this.producer = producer;
+        this.quantity=quantity;
+        this.color =color;
     }
 
     public int getId() {
@@ -63,5 +69,21 @@ public class Product {
 
     public void setProducer(String producer) {
         this.producer = producer;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 }

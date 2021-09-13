@@ -27,6 +27,16 @@
             </tr>
 
             <tr>
+                <td>Quantity:</td>
+                <td><input type="text" name="editquantity"  value="${requestScope["product"].getDescribe()}"></td>
+            </tr>
+
+            <tr>
+                <td>Color:</td>
+                <td><input type="text" name="editcolor"  value="${requestScope["product"].getDescribe()}"></td>
+            </tr>
+
+            <tr>
                 <td></td>
                 <td><input type="submit" value="Update product"></td>
             </tr>

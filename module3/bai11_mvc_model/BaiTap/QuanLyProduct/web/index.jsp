@@ -67,10 +67,12 @@
 
 <table>
     <tr>
-        <th>Id</th>
+        <th>STT</th>
         <th>Product's name</th>
         <th>Product's price</th>
         <th>Product's producer</th>
+        <th>Product's quantity</th>
+        <th>Product's color</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
@@ -80,6 +82,8 @@
             <td><a href="/product?actionProduct=view&id=${product.getId()}">${product.getName()}</a></td>
             <td>${product.getPrice()}</td>
             <td>${product.getProducer()}</td>
+            <td>${product.getQuantity()}</td>
+            <td>${product.getColor()}</td>
             <td><a href="/product?actionProduct=edit&id=${product.getId()}">Edit</a></td>
             <td><a href="/product?actionProduct=delete&id=${product.getId()}">Delete</a></td>
         </tr>

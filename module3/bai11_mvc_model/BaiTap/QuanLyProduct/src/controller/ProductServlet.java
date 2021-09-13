@@ -67,12 +67,14 @@ public class ProductServlet extends HttpServlet {
         String producer = request.getParameter("producer");
         String describer = request.getParameter("describer");
         double price = Double.parseDouble(request.getParameter("price"));
-        Product product = new Product(name, price, describer, producer);
+        int quantity = Integer.parseInt(request.getParameter("quantity"));
+        String color = request.getParameter("color");
+        Product product = new Product(name, price, describer, producer,quantity,color);
         if (productService.save(product)) {
             loadList(request, response);
         } else {
             request.setAttribute("msg", "Invalid data");
-            request.getRequestDispatcher("create.jsp").forward(request, response);
+            request.getRequestDispatcher("/create.jsp").forward(request, response);
         }
     }
 
@@ -114,6 +116,8 @@ public class ProductServlet extends HttpServlet {
         String producer = request.getParameter("editProducer");
         String describer = request.getParameter("editDescriber");
         double price = Double.parseDouble(request.getParameter("editPrice"));
+        int quantity = Integer.parseInt(request.getParameter("editquantity"));
+        String color = request.getParameter("editcolor");
         Product product = productService.findById(id);
         RequestDispatcher dispatcher;
         if (product == null) {
@@ -124,6 +128,8 @@ public class ProductServlet extends HttpServlet {
             product.setPrice(price);
             product.setProducer(producer);
             productService.edit(id, product);
+            product.setQuantity(quantity);
+            product.setColor(color);
             loadList(request, response);
         }
     }
@@ -149,5 +155,8 @@ public class ProductServlet extends HttpServlet {
             request.setAttribute("productSearch", product);
             request.getRequestDispatcher("result.jsp").forward(request, response);
         }
+
+
     }
+
 }

@@ -12,11 +12,11 @@ import java.util.stream.Collectors;
 public class ProductImplRepo implements ProductRepository {
     private static Map<Integer,Product> productMap=new TreeMap<>();
     static {
-            productMap.put(1,new Product(1,"Selsun",100000,"Dầu gội trị gàu","Kothlen"));
-            productMap.put(2,new Product(2,"Coca Cola",100000,"Nước ngọt có ga","Coca"));
-            productMap.put(3,new Product(3,"Pepsi",100000,"Nước ngọt có ga","Coca"));
-            productMap.put(4,new Product(4,"Miranda",100000,"Nước ngọt có ga","Pepsi"));
-            productMap.put(5,new Product(5,"7 Up",100000,"Nước ngọt có ga","Pepsi"));
+            productMap.put(1,new Product(1,"IphoneX",30000,"Đẹp","Apple",12,"red"));
+            productMap.put(2,new Product(2,"Iphone12",40000,"Đẹp","Apple",3,"blue"));
+            productMap.put(3,new Product(3,"Iphone13",45000,"Rất Đẹp","Apple",3,"blue"));
+            productMap.put(4,new Product(4,"SamsungPrime",20000,"Đẹp","Samsung",3,"blue"));
+            productMap.put(5,new Product(5,"Nokia4",15000,"Đẹp","Nokia",3,"blue"));
     }
     @Override
     public List<Product> findAll() {
