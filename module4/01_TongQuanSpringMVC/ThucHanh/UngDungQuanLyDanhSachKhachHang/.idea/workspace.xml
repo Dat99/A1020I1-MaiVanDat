@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b38984-cd50-45fb-b7b2-7c09d9b5c82a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/src/main/java/controllers/ConverterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/src/main/webapp/WEB-INF/views/converter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../BaiTap/UngDungChuyenDoiTienTe/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,6 +164,8 @@
       <workItem from="1631606977690" duration="1415000" />
       <workItem from="1631608884836" duration="3650000" />
       <workItem from="1631614981437" duration="152000" />
+      <workItem from="1632743597483" duration="2777000" />
+      <workItem from="1632815915719" duration="61000" />
     </task>
     <servers />
   </component>
